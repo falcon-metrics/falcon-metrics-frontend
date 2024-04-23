@@ -1,0 +1,42 @@
+.delivery-management-view-selector {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 32px;
+  border-radius: 16px;
+  text-transform: Capitalize;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: 'Open Sans', 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  color: rgb(50, 49, 48);
+  background: #fff;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.delivery-management-view-selector .MuiTabs-indicator {
+  background-color: transparent;
+}
+.delivery-management-view-selector .MuiTouchRipple-root {
+  border-radius: 20px;
+}
+
+.delivery-management-view-selector .Mui-selected {
+  border: 0;
+  background: #0077c5;
+  color: #fff !important;
+  border-radius: 20px;
+}
+
+.delivery-management-view-selector .MuiTab-textColorPrimary {
+  color: rgb(50, 49, 48);
+}
+
+.delivery-management-view-selector .MuiTab-root {
+  min-height: 32px;
+  padding: 0;
+  text-transform: Capitalize;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: 'Open Sans', 'Roboto', 'Helvetica', 'Arial', sans-serif;
+}

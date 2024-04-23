@@ -1,0 +1,13 @@
+.authAction {
+  display: inline-block;
+}
+
+.authAction__login {
+  width: 80px;
+  height: 35px;
+}
+
+.authAction__logout {
+  cursor: pointer;
+  text-decoration: none;
+}

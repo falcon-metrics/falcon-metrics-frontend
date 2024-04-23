@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 266 266">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #0075c9;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="mono">
+    <g>
+      <circle class="cls-1" cx="133" cy="133" r="128"/>
+      <polygon class="cls-2" points="133 169.88 70.5 169.88 101.75 115.75 133 61.62 164.25 115.75 195.5 169.88 133 169.88"/>
+    </g>
+  </g>
+</svg>

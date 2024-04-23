@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 266 266">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #10cfc9;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="mono">
+    <g>
+      <path class="cls-1" d="M264.16,132.49a128,128,0,1,1-128-128,128,128,0,0,1,128,128"/>
+      <g>
+        <polygon class="cls-2" points="81.45 187.21 83.44 158.8 109.85 185.21 81.45 187.21"/>
+        <rect class="cls-2" x="83.68" y="117.63" width="97.33" height="37.35" transform="translate(-57.62 133.5) rotate(-45)"/>
+        <path class="cls-2" d="M189.42,105.64l-8.18,8.17-26.4-26.4L163,79.23a5,5,0,0,1,7.07,0l19.34,19.34A5,5,0,0,1,189.42,105.64Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

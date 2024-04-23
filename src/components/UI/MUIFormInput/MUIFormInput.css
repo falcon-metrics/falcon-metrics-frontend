@@ -1,0 +1,15 @@
+.MuiInput-underline:focus-within::after {
+  transform: scaleX(1);
+}
+
+.MUI-copy-input-input {
+  font-family: 'Open Sans ', sans-serif;
+  text-align: center;
+  font-size: 13px;
+  margin-top: 5px;
+}
+
+.MUI-copy-input-middle-div.validated::after {
+  transform: scaleX(1);
+  border-bottom: solid 2px #4caf50;
+}

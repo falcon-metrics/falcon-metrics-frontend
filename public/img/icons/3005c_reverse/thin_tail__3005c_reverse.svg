@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 266 266">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-5 {
+        fill: none;
+      }
+
+      .cls-2, .cls-5 {
+        stroke: #0075c9;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2 {
+        stroke-width: 2px;
+      }
+
+      .cls-3, .cls-4 {
+        fill: #0075c9;
+      }
+
+      .cls-4 {
+        opacity: 0.7;
+      }
+    </style>
+  </defs>
+  <g id="mono">
+    <g>
+      <circle class="cls-1" cx="133" cy="133" r="128"/>
+      <g>
+        <g>
+          <polyline class="cls-2" points="75.13 81.88 75.13 189.86 199.38 189.86"/>
+          <polygon class="cls-3" points="71.14 83.05 75.13 76.14 79.11 83.05 71.14 83.05"/>
+          <polygon class="cls-3" points="198.22 193.85 205.13 189.86 198.22 185.87 198.22 193.85"/>
+        </g>
+        <g>
+          <path class="cls-4" d="M78.26,187.11s0-94.87.88-94.72c1.42,0,4.87,91.3,50.06,92.64,41.3.67,66.86,2.08,66.86,2.08Z"/>
+          <path class="cls-5" d="M78.26,187.11s0-94.87.88-94.72c1.42,0,4.87,91.3,50.06,92.64,41.3.67,66.86,2.08,66.86,2.08Z"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

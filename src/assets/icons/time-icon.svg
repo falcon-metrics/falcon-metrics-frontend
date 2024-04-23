@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="mono" width="63.875" height="63.875" viewBox="0 0 63.875 63.875">
+    <defs>
+        <style>
+            .cls-1{fill:#1277c8}
+        </style>
+    </defs>
+    <path id="Path_655" d="M124.274 100.847v-6.6h-2v6.653a3.206 3.206 0 1 0 4.117 4.015h4.094v-2h-4.094a3.216 3.216 0 0 0-2.121-2.073z" class="cls-1" transform="translate(-91.411 -71.981)"/>
+    <path id="Path_656" d="M36.938 5a31.938 31.938 0 1 0 31.937 31.938A31.937 31.937 0 0 0 36.938 5zm0 48.156a16.218 16.218 0 1 1 16.218-16.218 16.218 16.218 0 0 1-16.218 16.218z" class="cls-1" transform="translate(-5 -5)"/>
+</svg>

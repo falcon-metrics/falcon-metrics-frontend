@@ -1,0 +1,26 @@
+.obeya-tab-container .MuiTabs-indicator {
+  background-color: transparent;
+}
+.obeya-tab-container .MuiTouchRipple-root {
+  border-radius: 20px;
+}
+
+.obeya-tab-container .Mui-selected {
+  border: 0;
+  background: #616161;
+  color: #fff !important;
+  border-radius: 20px;
+}
+
+.obeya-tab-container .MuiTab-textColorPrimary {
+  color: rgb(50, 49, 48);
+}
+
+.obeya-tab-container .MuiTab-root {
+  min-height: 32px;
+  padding: 0;
+  text-transform: Capitalize;
+  font-size: 14px;
+  font-weight: normal;
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+}

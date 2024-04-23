@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 266 266">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="mono">
+    <path class="cls-1" d="M133,5A128,128,0,1,0,261,133,128,128,0,0,0,133,5Zm0,164.88H70.5l31.25-54.13L133,61.62l31.25,54.13,31.25,54.13Z"/>
+  </g>
+</svg>

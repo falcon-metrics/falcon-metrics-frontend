@@ -1,0 +1,17 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 266 266">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #eee;
+      }
+    </style>
+  </defs>
+  <g>
+    <circle class="cls-1" cx="133" cy="133" r="128" />
+    <rect class="cls-2" x="68" y="118" width="130" height="30" />
+  </g>
+</svg>

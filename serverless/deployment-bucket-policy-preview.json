@@ -1,0 +1,23 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "",
+      "Effect": "Allow",
+      "Principal": {
+        "AWS": "*"
+      },
+      "Action": "s3:GetObject",
+      "Resource": "arn:aws:s3:::front-end-preview/*"
+    },
+    {
+      "Sid": "2",
+      "Effect": "Allow",
+      "Principal": {
+        "AWS": "arn:aws:iam::cloudfront:user/CloudFront Origin Access Identity E1QRAVBCC9M3NG"
+      },
+      "Action": "s3:GetObject",
+      "Resource": "arn:aws:s3:::front-end-preview/*"
+    }
+  ]
+}

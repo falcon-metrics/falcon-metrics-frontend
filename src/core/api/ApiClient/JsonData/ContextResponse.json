@@ -1,0 +1,40 @@
+[
+  {
+    "id": "parent-context-1",
+    "displayName": "Sample Data Portfolio",
+    "children": [
+      {
+        "id": "child-context-1",
+        "displayName": "Paragon Initiative",
+        "children": [
+          {
+            "id": "grand-child-context-1",
+            "displayName": "Redeemers",
+            "children": {}
+          },
+          {
+            "id": "grand-child-context-2",
+            "displayName": "Guardians",
+            "children": {}
+          }
+        ]
+      },
+      {
+        "id": "child-context-2",
+        "displayName": "Feature Train Program",
+        "children": [
+          {
+            "id": "grand-child-context-3",
+            "displayName": "Metro",
+            "children": {}
+          },
+          {
+            "id": "grand-child-context-4",
+            "displayName": "Shinkansen",
+            "children": {}
+          }
+        ]
+      }
+    ]
+  }
+]

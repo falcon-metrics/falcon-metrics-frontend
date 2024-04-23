@@ -1,0 +1,189 @@
+{
+  "summaryTable": [
+    {
+      "demandType": "Feature",
+      "sle": "15 days or less ",
+      "targetMet": "48%",
+      "trendSle": "^",
+      "leadtime": "48 days",
+      "trendLeadtime": "^",
+      "variabilityLeadtime": "High",
+      "throughput": "22 features",
+      "trendThroughput": "^",
+      "variabilityThroughput": "Low"
+    },
+    {
+      "demandType": "Incident & Defect",
+      "sle": "15 days or less ",
+      "targetMet": "48%",
+      "trendSle": "^",
+      "leadtime": "48 days",
+      "trendLeadtime": "^",
+      "variabilityLeadtime": "High",
+      "throughput": "22 defects",
+      "trendThroughput": "^",
+      "variabilityThroughput": "Low"
+    },
+    {
+      "demandType": "Risk & Compliance",
+      "sle": "15 days or less ",
+      "targetMet": "48%",
+      "trendSle": "^",
+      "leadtime": "48 days",
+      "trendLeadtime": "^",
+      "variabilityLeadtime": "High",
+      "throughput": "2 risks",
+      "trendThroughput": "^",
+      "variabilityThroughput": "Low"
+    },
+    {
+      "demandType": "Management Activity",
+      "sle": "15 days or less ",
+      "targetMet": "48%",
+      "trendSle": "^",
+      "leadtime": "48 days",
+      "trendLeadtime": "^",
+      "variabilityLeadtime": "High",
+      "throughput": "22 activities",
+      "trendThroughput": "^",
+      "variabilityThroughput": "Low"
+    },
+    {
+      "demandType": "Enhancements & Optimisations",
+      "sle": "15 days or less ",
+      "targetMet": "48%",
+      "trendSle": "^",
+      "leadtime": "48 days",
+      "trendLeadtime": "^",
+      "variabilityLeadtime": "High",
+      "throughput": "22 activities",
+      "trendThroughput": "^",
+      "variabilityThroughput": "Low"
+    }
+  ],
+  "histogramProductivity": {
+    "defectIncident": [5, 16, 36, 26, 7, 128, 90, 85, 68, 38, 24, 12],
+    "feature": [15, 32, 48, 85, 142, 18, 22, 20, 20, 13, 12, 24],
+    "enhancementOptimisation": [10, 8, 10, 8, 7, 18, 7, 6, 0, 19, 25, 18],
+    "enablersTechDebt": [40, 32, 19, 8, 0, 9, 30, 27, 40.8, 37, 36, 12],
+    "risksCompliance": [20, 24, 19, 9, 0, 0, 0, 0, 0, 13, 18, 48],
+    "managementActivity": [10, 16, 18, 25, 0, 9, 0, 0, 7.2, 6, 6, 6],
+    "scaleX": [
+      "JUL",
+      "AUG",
+      "SEP",
+      "OCT",
+      "NOV",
+      "DEC",
+      "JAN",
+      "FEB",
+
+      "MAR",
+      "APR",
+      "MAY",
+      "JUN"
+    ]
+  },
+  "speedToValue": {
+    "defectIncident": [45, 35, 35, 25, 5, 5, 10, 15, 15, 10, 10, 10],
+    "feature": [60, 45, 30, 20, 15, 20, 30, 40, 30, 25, 20, 20],
+    "enhancementOptimisation": [50, 45, 40, 30, 40, 45, 40, 30, 25, 20, 20, 15],
+    "enablersTechDebt": [80, 90, 90, 85, 70, 60, 70, 65, 60, 40, 35, 25],
+    "risksCompliance": [80, 70, 70, 80, 90, 90, 80, 70, 65, 55, 50, 40],
+    "managementActivity": [85, 75, 75, 70, 65, 70, 60, 60, 50, 45, 35, 30],
+    "scaleX": [
+      "JUL",
+      "AUG",
+      "SEP",
+      "OCT",
+      "NOV",
+      "DEC",
+      "JAN",
+      "FEB",
+      "MAR",
+      "APR",
+      "MAY",
+      "JUN"
+    ]
+  },
+  "demandType": {
+    "defectIncident": [5, 16, 36, 26, 7, 128, 90, 85, 68, 38, 24, 12],
+    "feature": [15, 32, 48, 85, 142, 18, 22, 20, 20, 13, 12, 24],
+    "enhancementOptimisation": [10, 8, 10, 8, 7, 18, 7, 6, 0, 19, 25, 18],
+    "enablersTechDebt": [40, 32, 19, 8, 0, 9, 30, 27, 40.8, 37, 36, 12],
+    "risksCompliance": [20, 24, 19, 9, 0, 0, 0, 0, 0, 13, 18, 48],
+    "managementActivity": [10, 16, 18, 25, 0, 9, 0, 0, 7.2, 6, 6, 6],
+    "scaleX": [
+      "JUL",
+      "AUG",
+      "SEP",
+      "OCT",
+      "NOV",
+      "DEC",
+      "JAN",
+      "FEB",
+      "MAR",
+      "APR",
+      "MAY",
+      "JUN"
+    ]
+  },
+  "workflowTrend": {
+    "proposed": [40, 20, 10, 5, 0, 20, 15, 10, 10, 10, 20, 10],
+    "inProcess": [50, 60, 70, 60, 60, 30, 45, 40, 35, 40, 40, 50],
+    "completed": [10, 20, 20, 35, 40, 50, 40, 50, 55, 50, 40, 40],
+    "scaleX": [
+      "JUL",
+      "AUG",
+      "SEP",
+      "OCT",
+      "NOV",
+      "DEC",
+      "JAN",
+      "FEB",
+      "MAR",
+      "APR",
+      "MAY",
+      "JUN"
+    ]
+  },
+  "quality": {
+    "failuredDemand": [5, 10, 20, 15, 5, 70, 70, 60, 50, 30, 20, 10],
+    "nonValueDemand": [70, 55, 40, 25, 0, 10, 15, 20, 35, 45, 50, 55],
+    "valueDemand": [25, 35, 40, 60, 95, 20, 15, 20, 15, 25, 30, 35],
+    "scaleX": [
+      "JUL",
+      "AUG",
+      "SEP",
+      "OCT",
+      "NOV",
+      "DEC",
+      "JAN",
+      "FEB",
+      "MAR",
+      "APR",
+      "MAY",
+      "JUN"
+    ]
+  },
+  "valueArea": {
+    "customer": [25, 30, 50, 80, 95, 70, 75, 60, 55, 50, 50, 35],
+    "infrastructure": [40, 30, 20, 5, 5, 20, 5, 5, 10, 5, 10, 10],
+    "architecture": [30, 35, 25, 5, 0, 10, 20, 25, 30, 40, 35, 15],
+    "business": [5, 5, 5, 10, 0, 0, 0, 10, 5, 5, 5, 40, 0],
+    "scaleX": [
+      "JUL",
+      "AUG",
+      "SEP",
+      "OCT",
+      "NOV",
+      "DEC",
+      "JAN",
+      "FEB",
+      "MAR",
+      "APR",
+      "MAY",
+      "JUN"
+    ]
+  }
+}

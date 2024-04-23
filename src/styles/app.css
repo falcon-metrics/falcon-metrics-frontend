@@ -1,0 +1,751 @@
+/***********************************************************/
+/* CSS Reset
+/***********************************************************/
+* {
+  margin: 0px;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  appearance: none;
+}
+
+/***********************************************************/
+/* Page Container
+/***********************************************************/
+.app-container {
+  position: relative;
+  overflow: auto;
+}
+
+.reactour__close {
+  color: white !important;
+}
+
+.MuiInputBase-root.MuiInput-root.MuiInput-underline.MuiInputBase-fullWidth.MuiInput-fullWidth.MuiInputBase-formControl.MuiInput-formControl:hover .MuiInputBase-root.MuiInput-root.MuiInput-underline.MuiInputBase-fullWidth.MuiInput-fullWidth.MuiInputBase-formControl.MuiInput-formControl::before {
+  border-bottom: 2px solid #0077c8 !important;
+}
+
+.app-right-column {
+  background-color: rgba(227, 227, 227, 0.43);
+  align-content: center;
+  width: calc(100% - 105px);
+  margin-left: 105px;
+  /* disabling for the meantime */
+  /* height: 100vh; */
+  overflow: auto;
+}
+
+.does-not-support-mobile {
+  display: none;
+}
+
+/***********************************************************/
+/* Header - no longer displayed
+/***********************************************************/
+
+.breadcrumbs {
+  grid-area: 'breadcrumbs';
+  padding: 0px;
+  margin-left: 50px;
+  justify-content: start;
+}
+
+.level-container {
+  display: flex;
+  margin-left: 55px;
+  margin-top: 30px;
+  align-items: center;
+  grid-area: 'level';
+}
+
+.level-icon {
+  width: 38px;
+  height: 38px;
+  object-fit: contain;
+}
+
+.level-title {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 36px;
+  font-weight: 300;
+  color: rgba(0, 0, 0, 0.7);
+  margin-left: 20px;
+}
+
+.context-disabled .ms-Dropdown-title {
+  background-color: #e2e2e2 !important;
+}
+
+.user-identity-container {
+  display: flex;
+  margin-right: 48px;
+  align-items: center;
+  height: 54px;
+  grid-area: 'username';
+}
+
+/***********************************************************/
+/* left nav bar
+/***********************************************************/
+
+.customer_logo {
+  margin-top: 22px;
+  margin-bottom: 50px;
+  margin-left: 13px;
+  width: 85px;
+  height: 85px;
+  object-fit: contain;
+}
+
+.left-menu-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+/***********************************************************/
+/* Main
+/***********************************************************/
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.obeya-name-link {
+  float: left;
+  cursor: pointer;
+}
+
+.obeya-name-arrow {
+  padding-top: 2px;
+}
+
+.viewport-mode {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  color: #707070;
+}
+
+.content-navigation {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 55px;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+.dashboard-link {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 55px;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+.context-navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navigation-link-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.context-navigation-filter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
+.context-navigation-with-spinner {
+  display: flex;
+}
+
+@media only screen and (max-width: 1170px) {
+  .filter-text {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1120px) {
+  .context-container {
+    position: relative;
+  }
+
+  .ms-Dropdown-container {
+    margin-right: 5px;
+  }
+
+  .context-navigation-filter {
+    margin-left: 0.6rem;
+    margin-right: 0.6rem;
+  }
+
+  .wrapper-filter .ms-MessageBar-icon {
+    display: none;
+  }
+
+  .wrapper-filter .filter-text {
+    width: 76px !important;
+  }
+
+  .wrapper-filter .ms-MessageBar-text {
+    width: 32px !important;
+    justify-content: flex-end;
+    margin-right: 0;
+    margin-left: 0;
+  }
+}
+
+.ms-Dropdown-container {
+  margin-right: 8px;
+}
+
+.wrapper-filter {
+  align-self: flex-end;
+  width: 198px;
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+}
+
+.context-container {
+  display: flex;
+}
+
+.context-icons {
+  width: 100px;
+  align-items: center;
+  align-content: center;
+  align-self: center;
+}
+
+.context-selection {
+  display: flex;
+  height: 60px;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  align-self: center;
+  color: white;
+  border-radius: 5px;
+}
+
+.iteration-selection {
+  display: flex;
+  width: 300;
+  height: 120px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+  align-self: center;
+  color: white;
+  border-radius: 5px;
+}
+
+.content-filters {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.content-main-container {
+  flex-grow: 1;
+  overflow: auto;
+  min-height: calc(100vh - 257px);
+}
+
+.content-portfolio {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  color: #707070;
+  margin-left: 55px;
+  margin-right: 55px;
+}
+
+/***********************************************************/
+/* Filter bar
+/***********************************************************/
+
+.filter-icon {
+  display: flex;
+  justify-content: flex-end;
+  align-self: flex-end;
+  height: 38px;
+}
+
+.filter-panel-containerl {
+  display: flex;
+  direction: column;
+  justify-content: stretch;
+  margin-left: 55px;
+  align-content: flex-start;
+  color: #707070;
+}
+
+.ms-Panel-commands {
+  z-index: 100;
+}
+
+/***********************************************************/
+/* Widgets
+/***********************************************************/
+
+.coming-soon {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: left;
+  color: #707070;
+  flex-grow: 1;
+  overflow: auto;
+  margin: 0px;
+  padding: 0%;
+}
+
+.widget-header-container {
+  display: grid;
+  grid-template-columns: auto 30%;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+
+.widget {
+  background-color: white;
+  border-radius: 8px;
+  min-height: 406px;
+  padding-bottom: 8px;
+  box-shadow: 0px 2px 11px 0px #dcdcdc;
+}
+
+.no-padding {
+  padding: 0px !important;
+}
+
+.full-height {
+  height: 100%;
+}
+
+.widget-no-min-height {
+  min-height: 0px !important;
+}
+
+.widget-raised {
+  box-shadow: 0px 2px 11px 0px #dcdcdc;
+}
+
+.widget-title {
+  position: relative;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  text-align: left;
+  color: #707070;
+  margin-top: 15px;
+  margin-left: 15px;
+  margin-bottom: 15px;
+}
+
+.page-link {
+  font-size: 12px;
+  margin-left: 15px;
+}
+
+.widget-content {
+  overflow-y: auto;
+  height: calc(100% - 50px);
+}
+
+.widget-subtitle {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+  text-align: left;
+  color: #707070;
+  margin-top: 15px;
+  margin-left: 15px;
+  margin-bottom: 15px;
+}
+
+.widget-expand-icon {
+  float: right;
+  padding-right: 12px;
+}
+
+.widget-chart {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.widget-barchart {
+  display: flex;
+  justify-content: flex-end;
+  height: 100px;
+}
+
+.widget-barchart>div {
+  height: 80px !important;
+}
+
+.widget-notchart {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.key-indicator-container {
+  text-align: center;
+  justify-content: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  margin: 20px 30px 20px 30px;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.key-indicator {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.key-indicator-highlight {
+  font-weight: bold;
+}
+
+.key-indicator-label {
+  font-size: 22px;
+  padding: 0 0 10px 0;
+}
+
+.key-indicator-dates {
+  margin-bottom: 30px;
+}
+
+.key-indicator-table-title {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 22px;
+  color: rgba(0, 0, 0, 0.7);
+  font-weight: bold;
+  text-align: center;
+  vertical-align: bottom;
+  line-height: 70px;
+  border-top: solid 4px #41b6e6;
+}
+
+.key-indicator-table-content {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13px;
+  line-height: 60px;
+  text-align: left;
+  vertical-align: middle;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.key-indicator-table-content-percent {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 60px;
+  text-align: right;
+  color: rgba(0, 0, 0, 0.7);
+  font-weight: bold;
+}
+
+.key-indicator-trend-icon {
+  width: 38px;
+  vertical-align: middle;
+}
+
+.key-indicator-row {
+  display: grid;
+  grid-template-columns: 16% 10% 10% auto;
+  grid-column-gap: 4px;
+  /*justify-content: stretch;*/
+  border-top: solid 1px #e3e3e3;
+}
+
+/***********************************************************/
+/* Summary Page
+/***********************************************************/
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 1200px) {
+  .ObeyaGoals {
+    grid-column: span 2;
+  }
+
+  .ObeyaSummary {
+    grid-column: span 2;
+    /* X, X, 2 */
+    justify-content: center;
+  }
+
+  .ObeyaBacklog {
+    grid-column: span 4;
+    /* X, X, 4 */
+    justify-content: center;
+  }
+
+  .ObeyaFlowBased {
+    grid-column: span 4;
+    /* X, X, 4 */
+    justify-content: center;
+  }
+
+  .ObeyaProgress {
+    grid-column: span 4;
+    justify-content: center;
+  }
+
+  .ObeyaBurnChart {
+    padding-bottom: 0;
+    box-shadow: none;
+  }
+}
+
+/***********************************************************/
+/* Obeya Goals widget
+/***********************************************************/
+.obeya-goals-text {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.2em;
+}
+
+.obeya-goals-text-size {
+  font-size: 1.4em;
+}
+
+.obeya-goals-header {
+  font-size: 1.4em;
+  text-align: center;
+}
+
+.ObeyaGoalsWidget {
+  justify-content: start;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  overflow-y: auto;
+  min-height: 640px;
+  max-height: 880px;
+}
+
+.matchSiblingHeight {
+  height: 0;
+  overflow-y: hidden;
+  min-height: 100%;
+}
+
+.obeya-title {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  text-align: left;
+  color: #707070;
+  /*margin-top: 15px;*/
+  margin-left: 1px;
+  margin-bottom: 15px;
+}
+
+.obeya-buttons {
+  justify-content: center;
+  align-content: center;
+  align-self: center;
+}
+
+/***********************************************************/
+/* Summary Table widget
+/***********************************************************/
+.summary-table-text {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.2em;
+}
+
+.summary-table-text-size {
+  font-size: 1.4em;
+}
+
+.summary-table-header {
+  font-size: 1.4em;
+  text-align: center;
+}
+
+.SummaryTableWidget {
+  justify-content: start;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+/***********************************************************/
+/* Lead time Page ("Response Time")
+/***********************************************************/
+
+.LeadTimeSLE {
+  max-height: 438px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+  .content-container {
+    display: none;
+  }
+
+  .does-not-support-mobile {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+  }
+
+  .does-not-support-card {
+    display: flex;
+    justify-content: center;
+    padding: 3rem;
+    align-items: center;
+    margin-top: 4rem;
+    width: 90%;
+    height: 350px;
+    font-size: 16px;
+    color: #919191;
+    font-weight: bold;
+    font-family: 'Open Sans', 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  }
+
+  .does-not-support-card-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.sle-table {
+  max-height: 365px;
+  overflow-y: auto;
+}
+
+.sle-table .sle-row {
+  grid-template-columns: 37% 28% 22% 22%;
+}
+
+.sle-table .sle-row-header {
+  grid-template-columns: 36% 28% 22% 22%;
+}
+
+@media only screen and (min-width: 992px) {
+  .LeadTimeDistribution {
+    min-height: 406px;
+  }
+
+  .sle-container .context-container {
+    position: relative;
+  }
+
+  .sle-container .spinner-container {
+    position: absolute;
+    right: -40;
+  }
+
+  .ObeyaGoals {
+    grid-column: span 2;
+  }
+}
+
+@media only screen and (min-width: 1550px) {
+  .LeadTimeDistribution {
+    min-height: 406px;
+  }
+
+  .ObeyaGoals {
+    grid-column: span 2;
+  }
+}
+
+/***********************************************************/
+/* Lead time SLE widget
+/***********************************************************/
+.sle-table-title {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.sle-table-title-center {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.sle-table-content {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 40px;
+  text-align: left;
+  vertical-align: middle;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.sle-table-content-center {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 40px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.sle-table-content-percent {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 40px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.7);
+  font-weight: bold;
+}
+
+.sle-trend-icon {
+  width: 33px;
+  vertical-align: middle;
+}
+
+.sle-row {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 40px;
+  justify-content: stretch;
+  border-bottom: solid 1px #e3e3e3;
+  margin: 0px 30px 0px 30px;
+}
+
+.sle-row-header {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 40px;
+  margin: 0px 30px 0px 30px;
+  justify-content: stretch;
+  font-weight: bold;
+}

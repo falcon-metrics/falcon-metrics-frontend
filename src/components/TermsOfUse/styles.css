@@ -1,0 +1,13 @@
+.term-conditions {
+  position: fixed;
+  bottom: 0;
+  z-index: 500;
+}
+
+.term-conditions-text {
+  font-size: 1.2em;
+}
+
+.term-condition-disable-icon {
+  display: none;
+}

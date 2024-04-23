@@ -1,0 +1,20 @@
+.b-sch-dependency-is-blocked-by {
+    stroke-width: 1px;
+    stroke : #50c0ef;
+ }
+ 
+ .b-sch-dependency-is-dependency-for {
+    stroke-width: 1px;
+    stroke : #85e18a;
+ }
+ 
+ .b-sch-dependency-is-dependent-on {
+    stroke-width: 1px;
+    stroke : #eeae7a;
+ }
+ 
+ .b-sch-dependency-blocks {
+    stroke-width: 1px;
+    stroke : #9e4fe3;
+ }
+ 

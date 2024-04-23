@@ -1,0 +1,2 @@
+import RelationshipsExtendedDisplayVertical from './RelationshipsExtendedDisplayVertical';
+export default RelationshipsExtendedDisplayVertical;

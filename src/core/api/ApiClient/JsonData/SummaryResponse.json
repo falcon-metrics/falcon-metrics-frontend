@@ -1,0 +1,4367 @@
+{
+  "summaryTable": {
+    "past": [
+      {
+        "itemTypeName": "Feature",
+        "serviceLevelExpectationDays": "30",
+        "serviceLevelPercent": 0.78,
+        "trendAnalysisSLE": { "arrowDirection": "up", "arrowColour": "green" },
+        "leadtimePercentile": "36",
+        "trendAnalysisLeadTime": {
+          "arrowDirection": "down",
+          "arrowColour": "green"
+        },
+        "variabilityLeadTime": "Low",
+        "discarded": "42%",
+        "throughput": "8 items",
+        "trendAnalysisThroughput": {
+          "arrowDirection": "up",
+          "arrowColour": "green"
+        },
+        "variabilityThroughput": "Low"
+      },
+      {
+        "itemTypeName": "Incident & Defects",
+        "serviceLevelExpectationDays": "5",
+        "serviceLevelPercent": 0.9,
+        "trendAnalysisSLE": { "arrowDirection": "up", "arrowColour": "green" },
+        "leadtimePercentile": "4",
+        "trendAnalysisLeadTime": {
+          "arrowDirection": "down",
+          "arrowColour": "green"
+        },
+        "variabilityLeadTime": "Low",
+        "discarded": "13%",
+        "throughput": "22 items",
+        "trendAnalysisThroughput": {
+          "arrowDirection": "down",
+          "arrowColour": "red"
+        },
+        "variabilityThroughput": "Low"
+      },
+      {
+        "itemTypeName": "Risk & Compliance",
+        "serviceLevelExpectationDays": "60",
+        "serviceLevelPercent": 0.48,
+        "trendAnalysisSLE": { "arrowDirection": "up", "arrowColour": "green" },
+        "leadtimePercentile": "81",
+        "trendAnalysisLeadTime": {
+          "arrowDirection": "up",
+          "arrowColour": "red"
+        },
+        "variabilityLeadTime": "High",
+        "discarded": "6%",
+        "throughput": "4 items",
+        "trendAnalysisThroughput": {
+          "arrowDirection": "down",
+          "arrowColour": "red"
+        },
+        "variabilityThroughput": "High"
+      },
+      {
+        "itemTypeName": "Management Activity",
+        "serviceLevelExpectationDays": "30",
+        "serviceLevelPercent": 0.7,
+        "trendAnalysisSLE": { "arrowDirection": "down", "arrowColour": "red" },
+        "leadtimePercentile": "41",
+        "trendAnalysisLeadTime": {
+          "arrowDirection": "stable",
+          "arrowColour": "yellow"
+        },
+        "variabilityLeadTime": "High",
+        "discarded": "38%",
+        "throughput": "6 items",
+        "trendAnalysisThroughput": {
+          "arrowDirection": "down",
+          "arrowColour": "red"
+        },
+        "variabilityThroughput": "High"
+      },
+      {
+        "itemTypeName": "Enhancements & Optimizations",
+        "serviceLevelExpectationDays": "14",
+        "serviceLevelPercent": 0.86,
+        "trendAnalysisSLE": { "arrowDirection": "down", "arrowColour": "red" },
+        "leadtimePercentile": "16",
+        "trendAnalysisLeadTime": {
+          "arrowDirection": "down",
+          "arrowColour": "green"
+        },
+        "variabilityLeadTime": "Low",
+        "discarded": "57%",
+        "throughput": "12 items",
+        "trendAnalysisThroughput": {
+          "arrowDirection": "up",
+          "arrowColour": "green"
+        },
+        "variabilityThroughput": "Low"
+      }
+    ],
+    "present": [
+      {
+        "itemTypeName": "Feature",
+        "wipCount": 21,
+        "percentageOfStaleWorkItem": "46%",
+        "wipAgeAverage": 82,
+        "wipAge85Percentile": 128,
+        "wipVariability": "High",
+        "flowDebt": "4x",
+        "flowEfficiencyAverage": "6%",
+        "keySourceOfDelay": "Backlog",
+        "demandVsCapacity": "19% In more than Out",
+        "keyBounceBackStep": "Testing => In Progress"
+      },
+      {
+        "itemTypeName": "Incident & Defects",
+        "wipCount": 25,
+        "percentageOfStaleWorkItem": "30%",
+        "wipAgeAverage": 30,
+        "wipAge85Percentile": 45,
+        "wipVariability": "Low",
+        "flowDebt": "2x",
+        "flowEfficiencyAverage": "47%",
+        "keySourceOfDelay": "Ready for Test",
+        "demandVsCapacity": "8% Out more than In",
+        "keyBounceBackStep": "Testing => In Progress"
+      },
+      {
+        "itemTypeName": "Risk & Compliance",
+        "wipCount": 8,
+        "percentageOfStaleWorkItem": "72%",
+        "wipAgeAverage": 33,
+        "wipAge85Percentile": 67,
+        "wipVariability": "High",
+        "flowDebt": "5x",
+        "flowEfficiencyAverage": "5%",
+        "keySourceOfDelay": "Ready for Review",
+        "demandVsCapacity": "5% In more than Out",
+        "keyBounceBackStep": "Ready for Review => In Progress"
+      },
+      {
+        "itemTypeName": "Management Activity",
+        "wipCount": 6,
+        "percentageOfStaleWorkItem": "52%",
+        "wipAgeAverage": 64,
+        "wipAge85Percentile": 102,
+        "wipVariability": "High",
+        "flowDebt": "10x",
+        "flowEfficiencyAverage": "10%",
+        "keySourceOfDelay": "Ready for Review",
+        "demandVsCapacity": "13% In more than Out",
+        "keyBounceBackStep": "Ready for Review => In Progress"
+      },
+      {
+        "itemTypeName": "Enhancements & Optimisations",
+        "wipCount": 15,
+        "percentageOfStaleWorkItem": "63%",
+        "wipAgeAverage": 37,
+        "wipAge85Percentile": 49,
+        "wipVariability": "High",
+        "flowDebt": "1.5x",
+        "flowEfficiencyAverage": "34%",
+        "keySourceOfDelay": "Ready for UAT",
+        "demandVsCapacity": "10% In more than Out",
+        "keyBounceBackStep": "UAT => In Progress"
+      }
+    ],
+    "future": [
+      {
+        "itemTypeName": "Feature",
+        "inventoryCount": 568,
+        "inventoryAgePercentile85th": "88 days",
+        "trendAnalysisInventoryAge": {
+          "arrowColour": "green",
+          "arrowDirection": "down",
+          "percentage": 52,
+          "text": "less compared to the last two weeks"
+        },
+        "inventoryVariability": "High",
+        "commitmentRate": "56%",
+        "timeToCommitPercentile85th": "47 days",
+        "workLate": "20%"
+      },
+      {
+        "itemTypeName": "Incident & Defects",
+        "inventoryCount": 62,
+        "inventoryAgePercentile85th": "23 days",
+        "trendAnalysisInventoryAge": {
+          "arrowColour": "red",
+          "arrowDirection": "up",
+          "percentage": 52,
+          "text": "less compared to the last two weeks"
+        },
+        "inventoryVariability": "Low",
+        "commitmentRate": "90%",
+        "timeToCommitPercentile85th": "4 days",
+        "workLate": "10%"
+      },
+      {
+        "itemTypeName": "Risk & Compliance",
+        "inventoryCount": 7,
+        "inventoryAgePercentile85th": "31 days",
+        "trendAnalysisInventoryAge": {
+          "arrowColour": "green",
+          "arrowDirection": "down",
+          "percentage": 52,
+          "text": "less compared to the last two weeks"
+        },
+        "inventoryVariability": "Low",
+        "commitmentRate": "64%",
+        "timeToCommitPercentile85th": "17 days",
+        "workLate": "36%"
+      },
+      {
+        "itemTypeName": "Management Activity",
+        "inventoryCount": 14,
+        "inventoryAgePercentile85th": "43 days",
+        "trendAnalysisInventoryAge": {
+          "arrowColour": "green",
+          "arrowDirection": "down",
+          "percentage": 52,
+          "text": "less compared to the last two weeks"
+        },
+        "inventoryVariability": "High",
+        "commitmentRate": "16%",
+        "timeToCommitPercentile85th": "33 days",
+        "workLate": "41%"
+      },
+      {
+        "itemTypeName": "Enhancements & Optimisations",
+        "inventoryCount": 24,
+        "inventoryAgePercentile85th": "55 days",
+        "trendAnalysisInventoryAge": {
+          "arrowColour": "green",
+          "arrowDirection": "down",
+          "percentage": 52,
+          "text": "less compared to the last two weeks"
+        },
+        "inventoryVariability": "High",
+        "commitmentRate": "84%",
+        "timeToCommitPercentile85th": "29 days",
+        "workLate": "16%"
+      }
+    ]
+  },
+  "productivity": {
+    "years": [
+      {
+        "year": 2020,
+        "values": [
+          {
+            "itemTypeName": "Defect & Incident",
+            "count": 393
+          },
+          {
+            "itemTypeName": "Feature",
+            "count": 382
+          },
+          {
+            "itemTypeName": "Enhancement & Optimization",
+            "count": 74
+          },
+          {
+            "itemTypeName": "Enablers & Tech Debt",
+            "count": 165
+          },
+          {
+            "itemTypeName": "Risk & Compliance",
+            "count": 72
+          },
+          {
+            "itemTypeName": "Management Activity",
+            "count": 78
+          }
+        ]
+      },
+      {
+        "year": 2021,
+        "values": [
+          {
+            "itemTypeName": "Defect & Incident",
+            "count": 142
+          },
+          {
+            "itemTypeName": "Feature",
+            "count": 69
+          },
+          {
+            "itemTypeName": "Enhancement & Optimization",
+            "count": 62
+          },
+          {
+            "itemTypeName": "Enablers & Tech Debt",
+            "count": 126.8
+          },
+          {
+            "itemTypeName": "Risk & Compliance",
+            "count": 79
+          },
+          {
+            "itemTypeName": "Management Activity",
+            "count": 25.2
+          }
+        ]
+      }
+    ],
+    "months": [
+      {
+        "year": 2020,
+        "month": 5,
+        "values": [
+          {
+            "itemTypeName": "Defect & Incident",
+            "count": 5
+          },
+          {
+            "itemTypeName": "Feature",
+            "count": 15
+          },
+          {
+            "itemTypeName": "Enhancement & Optimization",
+            "count": 2
+          },
+          {
+            "itemTypeName": "Enablers & Tech Debt",
+            "count": 40
+          },
+          {
+            "itemTypeName": "Risk & Compliance",
+            "count": 20
+          },
+          {
+            "itemTypeName": "Management Activity",
+            "count": 10
+          }
+        ]
+      },
+      {
+        "year": 2020,
+        "month": 6,
+        "values": [
+          {
+            "itemTypeName": "Defect & Incident",
+            "count": 16
+          },
+          {
+            "itemTypeName": "Feature",
+            "count": 32
+          },
+          {
+            "itemTypeName": "Enhancement & Optimization",
+            "count": 8
+          },
+          {
+            "itemTypeName": "Enablers & Tech Debt",
+            "count": 32
+          },
+          {
+            "itemTypeName": "Risk & Compliance",
+            "count": 24
+          },
+          {
+            "itemTypeName": "Management Activity",
+            "count": 16
+          }
+        ]
+      },
+      {
+        "year": 2020,
+        "month": 7,
+        "values": [
+          {
+            "itemTypeName": "Defect & Incident",
+            "count": 36
+          },
+          {
+            "itemTypeName": "Feature",
+            "count": 48
+          },
+          {
+            "itemTypeName": "Enhancement & Optimization",
+            "count": 10
+          },
+          {
+            "itemTypeName": "Enablers & Tech Debt",
+            "count": 19
+          },
+          {
+            "itemTypeName": "Risk & Compliance",
+            "count": 19
+          },
+          {
+            "itemTypeName": "Management Activity",
+            "count": 18
+          }
+        ]
+      },
+      {
+        "year": 2020,
+        "month": 8,
+        "values": [
+          {
+            "itemTypeName": "Defect & Incident",
+            "count": 26
+          },
+          {
+            "itemTypeName": "Feature",
+            "count": 85
+          },
+          {
+            "itemTypeName": "Enhancement & Optimization",
+            "count": 8
+          },
+          {
+            "itemTypeName": "Enablers & Tech Debt",
+            "count": 8
+          },
+          {
+            "itemTypeName": "Risk & Compliance",
+            "count": 9
+          },
+          {
+            "itemTypeName": "Management Activity",
+            "count": 25
+          }
+        ]
+      },
+      {
+        "year": 2020,
+        "month": 9,
+        "values": [
+          {
+            "itemTypeName": "Defect & Incident",
+            "count": 7
+          },
+          {
+            "itemTypeName": "Feature",
+            "count": 142
+          },
+          {
+            "itemTypeName": "Enhancement & Optimization",
+            "count": 7
+          },
+          {
+            "itemTypeName": "Enablers & Tech Debt",
+            "count": 0
+          },
+          {
+            "itemTypeName": "Risk & Compliance",
+            "count": 0
+          },
+          {
+            "itemTypeName": "Management Activity",
+            "count": 0
+          }
+        ]
+      },
+      {
+        "year": 2020,
+        "month": 10,
+        "values": [
+          {
+            "itemTypeName": "Defect & Incident",
+            "count": 128
+          },
+          {
+            "itemTypeName": "Feature",
+            "count": 18
+          },
+          {
+            "itemTypeName": "Enhancement & Optimization",
+            "count": 18
+          },
+          {
+            "itemTypeName": "Enablers & Tech Debt",
+            "count": 9
+          },
+          {
+            "itemTypeName": "Risk & Compliance",
+            "count": 0
+          },
+          {
+            "itemTypeName": "Management Activity",
+            "count": 9
+          }
+        ]
+      },
+      {
+        "year": 2020,
+        "month": 11,
+        "values": [
+          {
+            "itemTypeName": "Defect & Incident",
+            "count": 90
+          },
+          {
+            "itemTypeName": "Feature",
+            "count": 22
+          },
+          {
+            "itemTypeName": "Enhancement & Optimization",
+            "count": 7
+          },
+          {
+            "itemTypeName": "Enablers & Tech Debt",
+            "count": 30
+          },
+          {
+            "itemTypeName": "Risk & Compliance",
+            "count": 0
+          },
+          {
+            "itemTypeName": "Management Activity",
+            "count": 0
+          }
+        ]
+      },
+      {
+        "year": 2020,
+        "month": 12,
+        "values": [
+          {
+            "itemTypeName": "Defect & Incident",
+            "count": 85
+          },
+          {
+            "itemTypeName": "Feature",
+            "count": 20
+          },
+          {
+            "itemTypeName": "Enhancement & Optimization",
+            "count": 6
+          },
+          {
+            "itemTypeName": "Enablers & Tech Debt",
+            "count": 27
+          },
+          {
+            "itemTypeName": "Risk & Compliance",
+            "count": 0
+          },
+          {
+            "itemTypeName": "Management Activity",
+            "count": 0
+          }
+        ]
+      },
+      {
+        "year": 2021,
+        "month": 1,
+        "values": [
+          {
+            "itemTypeName": "Defect & Incident",
+            "count": 68
+          },
+          {
+            "itemTypeName": "Feature",
+            "count": 20
+          },
+          {
+            "itemTypeName": "Enhancement & Optimization",
+            "count": 0
+          },
+          {
+            "itemTypeName": "Enablers & Tech Debt",
+            "count": 40.8
+          },
+          {
+            "itemTypeName": "Risk & Compliance",
+            "count": 0
+          },
+          {
+            "itemTypeName": "Management Activity",
+            "count": 7.2
+          }
+        ]
+      },
+      {
+        "year": 2021,
+        "month": 2,
+        "values": [
+          {
+            "itemTypeName": "Defect & Incident",
+            "count": 38
+          },
+          {
+            "itemTypeName": "Feature",
+            "count": 13
+          },
+          {
+            "itemTypeName": "Enhancement & Optimization",
+            "count": 19
+          },
+          {
+            "itemTypeName": "Enablers & Tech Debt",
+            "count": 37
+          },
+          {
+            "itemTypeName": "Risk & Compliance",
+            "count": 13
+          },
+          {
+            "itemTypeName": "Management Activity",
+            "count": 6
+          }
+        ]
+      },
+      {
+        "year": 2021,
+        "month": 3,
+        "values": [
+          {
+            "itemTypeName": "Defect & Incident",
+            "count": 24
+          },
+          {
+            "itemTypeName": "Feature",
+            "count": 12
+          },
+          {
+            "itemTypeName": "Enhancement & Optimization",
+            "count": 25
+          },
+          {
+            "itemTypeName": "Enablers & Tech Debt",
+            "count": 36
+          },
+          {
+            "itemTypeName": "Risk & Compliance",
+            "count": 18
+          },
+          {
+            "itemTypeName": "Management Activity",
+            "count": 6
+          }
+        ]
+      },
+      {
+        "year": 2021,
+        "month": 4,
+        "values": [
+          {
+            "itemTypeName": "Defect & Incident",
+            "count": 12
+          },
+          {
+            "itemTypeName": "Feature",
+            "count": 24
+          },
+          {
+            "itemTypeName": "Enhancement & Optimization",
+            "count": 18
+          },
+          {
+            "itemTypeName": "Enablers & Tech Debt",
+            "count": 12
+          },
+          {
+            "itemTypeName": "Risk & Compliance",
+            "count": 48
+          },
+          {
+            "itemTypeName": "Management Activity",
+            "count": 6
+          }
+        ]
+      }
+    ],
+    "weeks": [
+      {
+        "year": 2020,
+        "week": 18,
+        "values": [
+          {
+            "itemTypeName": "Feature",
+            "count": 1,
+            "weekStarting": "2020-04-27T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Enhancement & Optimization",
+            "count": 1,
+            "weekStarting": "2020-04-27T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Enablers & Tech Debt",
+            "count": 1,
+            "weekStarting": "2020-04-27T00:00:00.000-03:00"
+          }
+        ]
+      },
+      {
+        "year": 2020,
+        "week": 19,
+        "values": [
+          {
+            "itemTypeName": "Defect & Incident",
+            "count": 1,
+            "weekStarting": "2020-05-04T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Feature",
+            "count": 4,
+            "weekStarting": "2020-05-04T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Enhancement & Optimization",
+            "count": 1,
+            "weekStarting": "2020-05-04T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Enablers & Tech Debt",
+            "count": 11,
+            "weekStarting": "2020-05-04T00:00:00.000-03:00"
+          }
+        ]
+      },
+      {
+        "year": 2020,
+        "week": 20,
+        "values": [
+          {
+            "itemTypeName": "Defect & Incident",
+            "count": 2,
+            "weekStarting": "2020-05-11T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Feature",
+            "count": 3,
+            "weekStarting": "2020-05-11T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Enhancement & Optimization",
+            "count": 1,
+            "weekStarting": "2020-05-11T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Enablers & Tech Debt",
+            "count": 12,
+            "weekStarting": "2020-05-11T00:00:00.000-03:00"
+          }
+        ]
+      },
+      {
+        "year": 2020,
+        "week": 21,
+        "values": [
+          {
+            "itemTypeName": "Defect & Incident",
+            "count": 2,
+            "weekStarting": "2020-05-18T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Feature",
+            "count": 3,
+            "weekStarting": "2020-05-18T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Enhancement & Optimization",
+            "count": 1,
+            "weekStarting": "2020-05-18T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Enablers & Tech Debt",
+            "count": 6,
+            "weekStarting": "2020-05-18T00:00:00.000-03:00"
+          }
+        ]
+      },
+      {
+        "year": 2020,
+        "week": 22,
+        "values": [
+          {
+            "itemTypeName": "Feature",
+            "count": 4,
+            "weekStarting": "2020-05-25T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Enablers & Tech Debt",
+            "count": 10,
+            "weekStarting": "2020-05-25T00:00:00.000-03:00"
+          }
+        ]
+      },
+      {
+        "year": 2020,
+        "week": 23,
+        "values": [
+          {
+            "itemTypeName": "Defect & Incident",
+            "count": 3,
+            "weekStarting": "2020-06-01T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Feature",
+            "count": 7,
+            "weekStarting": "2020-06-01T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Enhancement & Optimization",
+            "count": 2,
+            "weekStarting": "2020-06-01T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Enablers & Tech Debt",
+            "count": 5,
+            "weekStarting": "2020-06-01T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Risk & Compliance",
+            "count": 5,
+            "weekStarting": "2020-06-01T00:00:00.000-03:00"
+          }
+        ]
+      },
+      {
+        "year": 2020,
+        "week": 24,
+        "values": [
+          {
+            "itemTypeName": "Defect & Incident",
+            "count": 5,
+            "weekStarting": "2020-06-08T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Feature",
+            "count": 11,
+            "weekStarting": "2020-06-08T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Enhancement & Optimization",
+            "count": 2,
+            "weekStarting": "2020-06-08T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Enablers & Tech Debt",
+            "count": 7,
+            "weekStarting": "2020-06-08T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Risk & Compliance",
+            "count": 3,
+            "weekStarting": "2020-06-08T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Management Activity",
+            "count": 4,
+            "weekStarting": "2020-06-08T00:00:00.000-03:00"
+          }
+        ]
+      },
+      {
+        "year": 2020,
+        "week": 25,
+        "values": [
+          {
+            "itemTypeName": "Defect & Incident",
+            "count": 3,
+            "weekStarting": "2020-06-15T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Feature",
+            "count": 25,
+            "weekStarting": "2020-06-15T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Enhancement & Optimization",
+            "count": 2,
+            "weekStarting": "2020-06-15T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Enablers & Tech Debt",
+            "count": 5,
+            "weekStarting": "2020-06-15T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Risk & Compliance",
+            "count": 4,
+            "weekStarting": "2020-06-15T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Management Activity",
+            "count": 5,
+            "weekStarting": "2020-06-15T00:00:00.000-03:00"
+          }
+        ]
+      },
+      {
+        "year": "2020",
+        "week": "26",
+        "values": [
+          {
+            "itemTypeName": "Defect & Incident",
+            "count": 2,
+            "weekStarting": "2020-06-22T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Feature",
+            "count": 2,
+            "weekStarting": "2020-06-22T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Enhancement & Optimization",
+            "count": 1,
+            "weekStarting": "2020-06-22T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Enablers & Tech Debt",
+            "count": 10,
+            "weekStarting": "2020-06-22T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Risk & Compliance",
+            "count": 9,
+            "weekStarting": "2020-06-22T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Management Activity",
+            "count": 5,
+            "weekStarting": "2020-06-22T00:00:00.000-03:00"
+          }
+        ]
+      },
+      {
+        "year": 2020,
+        "week": 27,
+        "values": [
+          {
+            "itemTypeName": "Defect & Incident",
+            "count": 6,
+            "weekStarting": "2020-06-29T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Feature",
+            "count": 5,
+            "weekStarting": "2020-06-29T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Enhancement & Optimization",
+            "count": 2,
+            "weekStarting": "2020-06-29T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Enablers & Tech Debt",
+            "count": 6,
+            "weekStarting": "2020-06-29T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Risk & Compliance",
+            "count": 5,
+            "weekStarting": "2020-06-29T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Management Activity",
+            "count": 2,
+            "weekStarting": "2020-06-29T00:00:00.000-03:00"
+          }
+        ]
+      },
+      {
+        "year": 2020,
+        "week": 28,
+        "values": [
+          {
+            "itemTypeName": "Defect & Incident",
+            "count": 8,
+            "weekStarting": "2020-07-06T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Feature",
+            "count": 9,
+            "weekStarting": "2020-07-06T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Enhancement & Optimization",
+            "count": 4,
+            "weekStarting": "2020-07-06T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Enablers & Tech Debt",
+            "count": 3,
+            "weekStarting": "2020-07-06T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Risk & Compliance",
+            "count": 9,
+            "weekStarting": "2020-07-06T00:00:00.000-03:00"
+          }
+        ]
+      },
+      {
+        "year": 2020,
+        "week": 29,
+        "values": [
+          {
+            "itemTypeName": "Defect & Incident",
+            "count": 9,
+            "weekStarting": "2020-07-13T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Feature",
+            "count": 9,
+            "weekStarting": "2020-07-13T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Enhancement & Optimization",
+            "count": 1,
+            "weekStarting": "2020-07-13T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Enablers & Tech Debt",
+            "count": 5,
+            "weekStarting": "2020-07-13T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Risk & Compliance",
+            "count": 3,
+            "weekStarting": "2020-07-13T00:00:00.000-03:00"
+          }
+        ]
+      },
+      {
+        "year": "2020",
+        "week": "30",
+        "values": [
+          {
+            "itemTypeName": "Defect & Incident",
+            "count": 12,
+            "weekStarting": "2020-07-20T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Feature",
+            "count": 16,
+            "weekStarting": "2020-07-20T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Enhancement & Optimization",
+            "count": 3,
+            "weekStarting": "2020-07-20T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Enablers & Tech Debt",
+            "count": 4,
+            "weekStarting": "2020-07-20T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Risk & Compliance",
+            "count": 4,
+            "weekStarting": "2020-07-20T00:00:00.000-03:00"
+          }
+        ]
+      },
+      {
+        "year": "2020",
+        "week": "31",
+        "values": [
+          {
+            "itemTypeName": "Defect & Incident",
+            "count": 4,
+            "weekStarting": "2020-07-27T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Feature",
+            "count": 9,
+            "weekStarting": "2020-07-27T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Enhancement & Optimization",
+            "count": 1,
+            "weekStarting": "2020-07-27T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Enablers & Tech Debt",
+            "count": 6,
+            "weekStarting": "2020-07-27T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Risk & Compliance",
+            "count": 1,
+            "weekStarting": "2020-07-27T00:00:00.000-03:00"
+          }
+        ]
+      }
+    ],
+    "quarters": [
+      {
+        "year": "2020",
+        "quarter": "2",
+        "values": [
+          {
+            "itemTypeName": "Defect & Incident",
+            "count": 80
+          },
+          {
+            "itemTypeName": "Feature",
+            "count": 105
+          },
+          {
+            "itemTypeName": "Enhancement & Optimization",
+            "count": 95
+          },
+          {
+            "itemTypeName": "Enablers & Tech Debt",
+            "count": 170
+          },
+          {
+            "itemTypeName": "Risks & Compliance",
+            "count": 150
+          },
+          {
+            "itemTypeName": "Management Activity",
+            "count": 160
+          }
+        ]
+      },
+      {
+        "year": "2020",
+        "quarter": "3",
+        "values": [
+          {
+            "itemTypeName": "Defect & Incident",
+            "count": 65
+          },
+          {
+            "itemTypeName": "Feature",
+            "count": 65
+          },
+          {
+            "itemTypeName": "Enhancement & Optimization",
+            "count": 110
+          },
+          {
+            "itemTypeName": "Enablers & Tech Debt",
+            "count": 235
+          },
+          {
+            "itemTypeName": "Risks & Compliance",
+            "count": 240
+          },
+          {
+            "itemTypeName": "Management Activity",
+            "count": 210
+          }
+        ]
+      },
+      {
+        "year": "2020",
+        "quarter": "4",
+        "values": [
+          {
+            "itemTypeName": "Defect & Incident",
+            "count": 30
+          },
+          {
+            "itemTypeName": "Feature",
+            "count": 90
+          },
+          {
+            "itemTypeName": "Enhancement & Optimization",
+            "count": 115
+          },
+          {
+            "itemTypeName": "Enablers & Tech Debt",
+            "count": 195
+          },
+          {
+            "itemTypeName": "Risks & Compliance",
+            "count": 240
+          },
+          {
+            "itemTypeName": "Management Activity",
+            "count": 190
+          }
+        ]
+      },
+      {
+        "year": "2021",
+        "quarter": "1",
+        "values": [
+          {
+            "itemTypeName": "Defect & Incident",
+            "count": 35
+          },
+          {
+            "itemTypeName": "Feature",
+            "count": 75
+          },
+          {
+            "itemTypeName": "Enhancement & Optimization",
+            "count": 65
+          },
+          {
+            "itemTypeName": "Enablers & Tech Debt",
+            "count": 135
+          },
+          {
+            "itemTypeName": "Risks & Compliance",
+            "count": 170
+          },
+          {
+            "itemTypeName": "Management Activity",
+            "count": 130
+          }
+        ]
+      },
+      {
+        "year": "2021",
+        "quarter": "2",
+        "values": [
+          {
+            "itemTypeName": "Defect & Incident",
+            "count": 10
+          },
+          {
+            "itemTypeName": "Feature",
+            "count": 20
+          },
+          {
+            "itemTypeName": "Enhancement & Optimization",
+            "count": 15
+          },
+          {
+            "itemTypeName": "Enablers & Tech Debt",
+            "count": 25
+          },
+          {
+            "itemTypeName": "Risks & Compliance",
+            "count": 40
+          },
+          {
+            "itemTypeName": "Management Activity",
+            "count": 30
+          }
+        ]
+      }
+    ]
+  },
+  "workflowTrendWidget": {
+    "years": [
+      {
+        "year": 2020,
+        "values": [
+          {
+            "itemTypeName": "proposed",
+            "count": 120
+          },
+          {
+            "itemTypeName": "In Process",
+            "count": 415
+          },
+          {
+            "itemTypeName": "completed",
+            "count": 265
+          }
+        ]
+      },
+      {
+        "year": 2021,
+        "values": [
+          {
+            "itemTypeName": "proposed",
+            "count": 50
+          },
+          {
+            "itemTypeName": "In Process",
+            "count": 165
+          },
+          {
+            "itemTypeName": "completed",
+            "count": 185
+          }
+        ]
+      }
+    ],
+    "months": [
+      {
+        "year": 2020,
+        "month": 5,
+        "values": [
+          {
+            "itemTypeName": "Proposed",
+            "count": 40
+          },
+          {
+            "itemTypeName": "In Process",
+            "count": 50
+          },
+          {
+            "itemTypeName": "Completed",
+            "count": 10
+          }
+        ]
+      },
+      {
+        "year": 2020,
+        "month": 6,
+        "values": [
+          {
+            "itemTypeName": "Proposed",
+            "count": 20
+          },
+          {
+            "itemTypeName": "In Process",
+            "count": 60
+          },
+          {
+            "itemTypeName": "Completed",
+            "count": 20
+          }
+        ]
+      },
+      {
+        "year": 2020,
+        "month": 7,
+        "values": [
+          {
+            "itemTypeName": "Proposed",
+            "count": 10
+          },
+          {
+            "itemTypeName": "In Process",
+            "count": 70
+          },
+          {
+            "itemTypeName": "Completed",
+            "count": 20
+          }
+        ]
+      },
+      {
+        "year": 2020,
+        "month": 8,
+        "values": [
+          {
+            "itemTypeName": "Proposed",
+            "count": 5
+          },
+          {
+            "itemTypeName": "In Process",
+            "count": 60
+          },
+          {
+            "itemTypeName": "Completed",
+            "count": 35
+          }
+        ]
+      },
+      {
+        "year": 2020,
+        "month": 9,
+        "values": [
+          {
+            "itemTypeName": "Proposed",
+            "count": 0
+          },
+          {
+            "itemTypeName": "In Process",
+            "count": 60
+          },
+          {
+            "itemTypeName": "Completed",
+            "count": 40
+          }
+        ]
+      },
+      {
+        "year": 2020,
+        "month": 10,
+        "values": [
+          {
+            "itemTypeName": "Proposed",
+            "count": 20
+          },
+          {
+            "itemTypeName": "In Process",
+            "count": 30
+          },
+          {
+            "itemTypeName": "Completed",
+            "count": 50
+          }
+        ]
+      },
+      {
+        "year": 2020,
+        "month": 11,
+        "values": [
+          {
+            "itemTypeName": "Proposed",
+            "count": 15
+          },
+          {
+            "itemTypeName": "In Process",
+            "count": 45
+          },
+          {
+            "itemTypeName": "Completed",
+            "count": 40
+          }
+        ]
+      },
+      {
+        "year": 2020,
+        "month": 12,
+        "values": [
+          {
+            "itemTypeName": "Proposed",
+            "count": 10
+          },
+          {
+            "itemTypeName": "In Process",
+            "count": 40
+          },
+          {
+            "itemTypeName": "Completed",
+            "count": 50
+          }
+        ]
+      },
+      {
+        "year": 2021,
+        "month": 1,
+        "values": [
+          {
+            "itemTypeName": "Proposed",
+            "count": 10
+          },
+          {
+            "itemTypeName": "In Process",
+            "count": 35
+          },
+          {
+            "itemTypeName": "Completed",
+            "count": 55
+          }
+        ]
+      },
+      {
+        "year": 2021,
+        "month": 2,
+        "values": [
+          {
+            "itemTypeName": "Proposed",
+            "count": 10
+          },
+          {
+            "itemTypeName": "In Process",
+            "count": 40
+          },
+          {
+            "itemTypeName": "Completed",
+            "count": 50
+          }
+        ]
+      },
+      {
+        "year": 2021,
+        "month": 3,
+        "values": [
+          {
+            "itemTypeName": "Proposed",
+            "count": 20
+          },
+          {
+            "itemTypeName": "In Process",
+            "count": 40
+          },
+          {
+            "itemTypeName": "Completed",
+            "count": 40
+          }
+        ]
+      },
+      {
+        "year": 2021,
+        "month": 4,
+        "values": [
+          {
+            "itemTypeName": "Proposed",
+            "count": 10
+          },
+          {
+            "itemTypeName": "In Process",
+            "count": 50
+          },
+          {
+            "itemTypeName": "Completed",
+            "count": 40
+          }
+        ]
+      }
+    ],
+    "quarters": [
+      {
+        "year": "2020",
+        "quarter": "2",
+        "values": [
+          {
+            "itemTypeName": "proposed",
+            "count": 60
+          },
+          {
+            "itemTypeName": "In Process",
+            "count": 110
+          },
+          {
+            "itemTypeName": "completed",
+            "count": 30
+          }
+        ]
+      },
+      {
+        "year": "2020",
+        "quarter": "3",
+        "values": [
+          {
+            "itemTypeName": "proposed",
+            "count": 15
+          },
+          {
+            "itemTypeName": "In Process",
+            "count": 190
+          },
+          {
+            "itemTypeName": "completed",
+            "count": 95
+          }
+        ]
+      },
+      {
+        "year": "2020",
+        "quarter": "4",
+        "values": [
+          {
+            "itemTypeName": "proposed",
+            "count": 45
+          },
+          {
+            "itemTypeName": "In Process",
+            "count": 115
+          },
+          {
+            "itemTypeName": "completed",
+            "count": 140
+          }
+        ]
+      },
+      {
+        "year": "2021",
+        "quarter": "1",
+        "values": [
+          {
+            "itemTypeName": "proposed",
+            "count": 40
+          },
+          {
+            "itemTypeName": "In Process",
+            "count": 115
+          },
+          {
+            "itemTypeName": "completed",
+            "count": 145
+          }
+        ]
+      },
+      {
+        "year": "2021",
+        "quarter": "2",
+        "values": [
+          {
+            "itemTypeName": "proposed",
+            "count": 10
+          },
+          {
+            "itemTypeName": "In Process",
+            "count": 50
+          },
+          {
+            "itemTypeName": "completed",
+            "count": 40
+          }
+        ]
+      }
+    ],
+    "weeks": [
+      {
+        "year": 2020,
+        "week": 18,
+        "values": [
+          {
+            "itemTypeName": "Proposed",
+            "count": 1,
+            "weekStarting": "2020-04-27T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "In Process",
+            "count": 3,
+            "weekStarting": "2020-04-27T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Completed",
+            "count": 1,
+            "weekStarting": "2020-04-27T00:00:00.000-03:00"
+          }
+        ]
+      },
+      {
+        "year": 2020,
+        "week": 19,
+        "values": [
+          {
+            "itemTypeName": "Proposed",
+            "count": 13,
+            "weekStarting": "2020-05-04T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "In Process",
+            "count": 16,
+            "weekStarting": "2020-05-04T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Completed",
+            "count": 4,
+            "weekStarting": "2020-05-04T00:00:00.000-03:00"
+          }
+        ]
+      },
+      {
+        "year": 2020,
+        "week": 20,
+        "values": [
+          {
+            "itemTypeName": "Proposed",
+            "count": 14,
+            "weekStarting": "2020-05-11T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "In Process",
+            "count": 8,
+            "weekStarting": "2020-05-11T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Completed",
+            "count": 3,
+            "weekStarting": "2020-05-04T00:00:00.000-03:00"
+          }
+        ]
+      },
+      {
+        "year": 2020,
+        "week": 21,
+        "values": [
+          {
+            "itemTypeName": "Proposed",
+            "count": 4,
+            "weekStarting": "2020-05-18T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "In Process",
+            "count": 12,
+            "weekStarting": "2020-05-18T00:00:00.000-03:00"
+          }
+        ]
+      },
+      {
+        "year": 2020,
+        "week": 22,
+        "values": [
+          {
+            "itemTypeName": "Proposed",
+            "count": 8,
+            "weekStarting": "2020-05-25T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "In Process",
+            "count": 11,
+            "weekStarting": "2020-05-25T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Completed",
+            "count": 2,
+            "weekStarting": "2020-05-25T00:00:00.000-03:00"
+          }
+        ]
+      },
+      {
+        "year": 2020,
+        "week": 23,
+        "values": [
+          {
+            "itemTypeName": "Proposed",
+            "count": 2,
+            "weekStarting": "2020-06-01T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "In Process",
+            "count": 12,
+            "weekStarting": "2020-06-01T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Completed",
+            "count": 4,
+            "weekStarting": "2020-06-01T00:00:00.000-03:00"
+          }
+        ]
+      },
+      {
+        "year": 2020,
+        "week": 24,
+        "values": [
+          {
+            "itemTypeName": "Proposed",
+            "count": 8,
+            "weekStarting": "2020-06-08T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "In Process",
+            "count": 16,
+            "weekStarting": "2020-06-08T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Completed",
+            "count": 7,
+            "weekStarting": "2020-06-08T00:00:00.000-03:00"
+          }
+        ]
+      },
+      {
+        "year": 2020,
+        "week": 25,
+        "values": [
+          {
+            "itemTypeName": "Proposed",
+            "count": 2,
+            "weekStarting": "2020-06-15T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "In Process",
+            "count": 12,
+            "weekStarting": "2020-06-15T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Completed",
+            "count": 3,
+            "weekStarting": "2020-06-15T00:00:00.000-03:00"
+          }
+        ]
+      },
+      {
+        "year": 2020,
+        "week": 26,
+        "values": [
+          {
+            "itemTypeName": "Proposed",
+            "count": 7,
+            "weekStarting": "2020-06-22T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "In Process",
+            "count": 17,
+            "weekStarting": "2020-06-22T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Completed",
+            "count": 4,
+            "weekStarting": "2020-06-22T00:00:00.000-03:00"
+          }
+        ]
+      },
+      {
+        "year": 2020,
+        "week": 27,
+        "values": [
+          {
+            "itemTypeName": "Proposed",
+            "count": 1,
+            "weekStarting": "2020-06-29T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "In Process",
+            "count": 11,
+            "weekStarting": "2020-06-29T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Completed",
+            "count": 5,
+            "weekStarting": "2020-06-29T00:00:00.000-03:00"
+          }
+        ]
+      },
+      {
+        "year": 2020,
+        "week": 28,
+        "values": [
+          {
+            "itemTypeName": "In Process",
+            "count": 20,
+            "weekStarting": "2020-07-06T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Completed",
+            "count": 4,
+            "weekStarting": "2020-07-06T00:00:00.000-03:00"
+          }
+        ]
+      },
+      {
+        "year": 2020,
+        "week": 29,
+        "values": [
+          {
+            "itemTypeName": "Proposed",
+            "count": 2,
+            "weekStarting": "2020-07-13T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "In Process",
+            "count": 15,
+            "weekStarting": "2020-07-13T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Completed",
+            "count": 3,
+            "weekStarting": "2020-07-13T00:00:00.000-03:00"
+          }
+        ]
+      },
+      {
+        "year": 2020,
+        "week": 30,
+        "values": [
+          {
+            "itemTypeName": "Proposed",
+            "count": 5,
+            "weekStarting": "2020-07-20T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "In Process",
+            "count": 17,
+            "weekStarting": "2020-07-20T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Completed",
+            "count": 5,
+            "weekStarting": "2020-07-20T00:00:00.000-03:00"
+          }
+        ]
+      },
+      {
+        "year": 2020,
+        "week": 31,
+        "values": [
+          {
+            "itemTypeName": "Proposed",
+            "count": 3,
+            "weekStarting": "2020-07-27T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "In Process",
+            "count": 10,
+            "weekStarting": "2020-07-27T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Completed",
+            "count": 5,
+            "weekStarting": "2020-07-27T00:00:00.000-03:00"
+          }
+        ]
+      }
+    ]
+  },
+  "leadTimeWidget": {
+    "years": [
+      {
+        "year": 2020,
+        "values": [
+          {
+            "itemTypeName": "Defect & Incident",
+            "count": 175
+          },
+          {
+            "itemTypeName": "Feature",
+            "count": 260
+          },
+          {
+            "itemTypeName": "Enhancement & Optimization",
+            "count": 320
+          },
+          {
+            "itemTypeName": "Enablers & Tech Debt",
+            "count": 610
+          },
+          {
+            "itemTypeName": "Risks & Compliance",
+            "count": 630
+          },
+          {
+            "itemTypeName": "Management Activity",
+            "count": 560
+          }
+        ]
+      },
+      {
+        "year": 2021,
+        "values": [
+          {
+            "itemTypeName": "Defect & Incident",
+            "count": 45
+          },
+          {
+            "itemTypeName": "Feature",
+            "count": 95
+          },
+          {
+            "itemTypeName": "Enhancement & Optimization",
+            "count": 80
+          },
+          {
+            "itemTypeName": "Enablers & Tech Debt",
+            "count": 160
+          },
+          {
+            "itemTypeName": "Risks & Compliance",
+            "count": 210
+          },
+          {
+            "itemTypeName": "Management Activity",
+            "count": 160
+          }
+        ]
+      }
+    ],
+    "quarters": [
+      {
+        "year": 2020,
+        "month": 2,
+        "values": [
+          {
+            "itemTypeName": "Defect & Incident",
+            "count": 80
+          },
+          {
+            "itemTypeName": "Feature",
+            "count": 105
+          },
+          {
+            "itemTypeName": "Enhancement & Optimization",
+            "count": 95
+          },
+          {
+            "itemTypeName": "Enablers & Tech Debt",
+            "count": 170
+          },
+          {
+            "itemTypeName": "Risks & Compliance",
+            "count": 150
+          },
+          {
+            "itemTypeName": "Management Activity",
+            "count": 160
+          }
+        ]
+      },
+      {
+        "year": 2020,
+        "month": 3,
+        "values": [
+          {
+            "itemTypeName": "Defect & Incident",
+            "count": 65
+          },
+          {
+            "itemTypeName": "Feature",
+            "count": 65
+          },
+          {
+            "itemTypeName": "Enhancement & Optimization",
+            "count": 110
+          },
+          {
+            "itemTypeName": "Enablers & Tech Debt",
+            "count": 245
+          },
+          {
+            "itemTypeName": "Risks & Compliance",
+            "count": 240
+          },
+          {
+            "itemTypeName": "Management Activity",
+            "count": 210
+          }
+        ]
+      },
+      {
+        "year": 2020,
+        "month": 4,
+        "values": [
+          {
+            "itemTypeName": "Defect & Incident",
+            "count": 30
+          },
+          {
+            "itemTypeName": "Feature",
+            "count": 90
+          },
+          {
+            "itemTypeName": "Enhancement & Optimization",
+            "count": 115
+          },
+          {
+            "itemTypeName": "Enablers & Tech Debt",
+            "count": 195
+          },
+          {
+            "itemTypeName": "Risks & Compliance",
+            "count": 240
+          },
+          {
+            "itemTypeName": "Management Activity",
+            "count": 190
+          }
+        ]
+      },
+      {
+        "year": 2021,
+        "month": 1,
+        "values": [
+          {
+            "itemTypeName": "Defect & Incident",
+            "count": 35
+          },
+          {
+            "itemTypeName": "Feature",
+            "count": 75
+          },
+          {
+            "itemTypeName": "Enhancement & Optimization",
+            "count": 65
+          },
+          {
+            "itemTypeName": "Enablers & Tech Debt",
+            "count": 135
+          },
+          {
+            "itemTypeName": "Risks & Compliance",
+            "count": 170
+          },
+          {
+            "itemTypeName": "Management Activity",
+            "count": 130
+          }
+        ]
+      },
+      {
+        "year": 2021,
+        "month": 2,
+        "values": [
+          {
+            "itemTypeName": "Defect & Incident",
+            "count": 10
+          },
+          {
+            "itemTypeName": "Feature",
+            "count": 20
+          },
+          {
+            "itemTypeName": "Enhancement & Optimization",
+            "count": 15
+          },
+          {
+            "itemTypeName": "Enablers & Tech Debt",
+            "count": 25
+          },
+          {
+            "itemTypeName": "Risks & Compliance",
+            "count": 40
+          },
+          {
+            "itemTypeName": "Management Activity",
+            "count": 30
+          }
+        ]
+      }
+    ],
+    "months": [
+      {
+        "year": 2020,
+        "month": 5,
+        "values": [
+          {
+            "itemTypeName": "Defect & Incident",
+            "count": 45
+          },
+          {
+            "itemTypeName": "Feature",
+            "count": 60
+          },
+          {
+            "itemTypeName": "Enhancement & Optimization",
+            "count": 50
+          },
+          {
+            "itemTypeName": "Enablers & Tech Debt",
+            "count": 80
+          },
+          {
+            "itemTypeName": "Risks & Compliance",
+            "count": 85
+          },
+          {
+            "itemTypeName": "Management Activity",
+            "count": 85
+          }
+        ]
+      },
+      {
+        "year": 2020,
+        "month": 6,
+        "values": [
+          {
+            "itemTypeName": "Defect & Incident",
+            "count": 35
+          },
+          {
+            "itemTypeName": "Feature",
+            "count": 45
+          },
+          {
+            "itemTypeName": "Enhancement & Optimization",
+            "count": 45
+          },
+          {
+            "itemTypeName": "Enablers & Tech Debt",
+            "count": 90
+          },
+          {
+            "itemTypeName": "Risks & Compliance",
+            "count": 70
+          },
+          {
+            "itemTypeName": "Management Activity",
+            "count": 75
+          }
+        ]
+      },
+      {
+        "year": 2020,
+        "month": 7,
+        "values": [
+          {
+            "itemTypeName": "Defect & Incident",
+            "count": 35
+          },
+          {
+            "itemTypeName": "Feature",
+            "count": 30
+          },
+          {
+            "itemTypeName": "Enhancement & Optimization",
+            "count": 40
+          },
+          {
+            "itemTypeName": "Enablers & Tech Debt",
+            "count": 90
+          },
+          {
+            "itemTypeName": "Risks & Compliance",
+            "count": 70
+          },
+          {
+            "itemTypeName": "Management Activity",
+            "count": 75
+          }
+        ]
+      },
+      {
+        "year": 2020,
+        "month": 8,
+        "values": [
+          {
+            "itemTypeName": "Defect & Incident",
+            "count": 25
+          },
+          {
+            "itemTypeName": "Feature",
+            "count": 20
+          },
+          {
+            "itemTypeName": "Enhancement & Optimization",
+            "count": 30
+          },
+          {
+            "itemTypeName": "Enablers & Tech Debt",
+            "count": 85
+          },
+          {
+            "itemTypeName": "Risks & Compliance",
+            "count": 80
+          },
+          {
+            "itemTypeName": "Management Activity",
+            "count": 70
+          }
+        ]
+      },
+      {
+        "year": 2020,
+        "month": 9,
+        "values": [
+          {
+            "itemTypeName": "Defect & Incident",
+            "count": 5
+          },
+          {
+            "itemTypeName": "Feature",
+            "count": 15
+          },
+          {
+            "itemTypeName": "Enhancement & Optimization",
+            "count": 40
+          },
+          {
+            "itemTypeName": "Enablers & Tech Debt",
+            "count": 70
+          },
+          {
+            "itemTypeName": "Risks & Compliance",
+            "count": 90
+          },
+          {
+            "itemTypeName": "Management Activity",
+            "count": 65
+          }
+        ]
+      },
+      {
+        "year": 2020,
+        "month": 10,
+        "values": [
+          {
+            "itemTypeName": "Defect & Incident",
+            "count": 5
+          },
+          {
+            "itemTypeName": "Feature",
+            "count": 20
+          },
+          {
+            "itemTypeName": "Enhancement & Optimization",
+            "count": 45
+          },
+          {
+            "itemTypeName": "Enablers & Tech Debt",
+            "count": 60
+          },
+          {
+            "itemTypeName": "Risks & Compliance",
+            "count": 90
+          },
+          {
+            "itemTypeName": "Management Activity",
+            "count": 70
+          }
+        ]
+      },
+      {
+        "year": 2020,
+        "month": 11,
+        "values": [
+          {
+            "itemTypeName": "Defect & Incident",
+            "count": 10
+          },
+          {
+            "itemTypeName": "Feature",
+            "count": 30
+          },
+          {
+            "itemTypeName": "Enhancement & Optimization",
+            "count": 40
+          },
+          {
+            "itemTypeName": "Enablers & Tech Debt",
+            "count": 70
+          },
+          {
+            "itemTypeName": "Risks & Compliance",
+            "count": 80
+          },
+          {
+            "itemTypeName": "Management Activity",
+            "count": 60
+          }
+        ]
+      },
+      {
+        "year": 2020,
+        "month": 12,
+        "values": [
+          {
+            "itemTypeName": "Defect & Incident",
+            "count": 15
+          },
+          {
+            "itemTypeName": "Feature",
+            "count": 40
+          },
+          {
+            "itemTypeName": "Enhancement & Optimization",
+            "count": 30
+          },
+          {
+            "itemTypeName": "Enablers & Tech Debt",
+            "count": 65
+          },
+          {
+            "itemTypeName": "Risks & Compliance",
+            "count": 70
+          },
+          {
+            "itemTypeName": "Management Activity",
+            "count": 60
+          }
+        ]
+      },
+      {
+        "year": 2021,
+        "month": 1,
+        "values": [
+          {
+            "itemTypeName": "Defect & Incident",
+            "count": 15
+          },
+          {
+            "itemTypeName": "Feature",
+            "count": 30
+          },
+          {
+            "itemTypeName": "Enhancement & Optimization",
+            "count": 25
+          },
+          {
+            "itemTypeName": "Enablers & Tech Debt",
+            "count": 60
+          },
+          {
+            "itemTypeName": "Risks & Compliance",
+            "count": 65
+          },
+          {
+            "itemTypeName": "Management Activity",
+            "count": 50
+          }
+        ]
+      },
+      {
+        "year": 2021,
+        "month": 2,
+        "values": [
+          {
+            "itemTypeName": "Defect & Incident",
+            "count": 10
+          },
+          {
+            "itemTypeName": "Feature",
+            "count": 25
+          },
+          {
+            "itemTypeName": "Enhancement & Optimization",
+            "count": 20
+          },
+          {
+            "itemTypeName": "Enablers & Tech Debt",
+            "count": 40
+          },
+          {
+            "itemTypeName": "Risks & Compliance",
+            "count": 55
+          },
+          {
+            "itemTypeName": "Management Activity",
+            "count": 45
+          }
+        ]
+      },
+      {
+        "year": 2021,
+        "month": 3,
+        "values": [
+          {
+            "itemTypeName": "Defect & Incident",
+            "count": 10
+          },
+          {
+            "itemTypeName": "Feature",
+            "count": 20
+          },
+          {
+            "itemTypeName": "Enhancement & Optimization",
+            "count": 20
+          },
+          {
+            "itemTypeName": "Enablers & Tech Debt",
+            "count": 35
+          },
+          {
+            "itemTypeName": "Risks & Compliance",
+            "count": 50
+          },
+          {
+            "itemTypeName": "Management Activity",
+            "count": 35
+          }
+        ]
+      },
+      {
+        "year": 2021,
+        "month": 4,
+        "values": [
+          {
+            "itemTypeName": "Defect & Incident",
+            "count": 10
+          },
+          {
+            "itemTypeName": "Feature",
+            "count": 20
+          },
+          {
+            "itemTypeName": "Enhancement & Optimization",
+            "count": 15
+          },
+          {
+            "itemTypeName": "Enablers & Tech Debt",
+            "count": 25
+          },
+          {
+            "itemTypeName": "Risks & Compliance",
+            "count": 40
+          },
+          {
+            "itemTypeName": "Management Activity",
+            "count": 30
+          }
+        ]
+      }
+    ],
+    "weeks": [
+      {
+        "year": 2020,
+        "week": 18,
+        "values": [
+          {
+            "itemTypeName": "Defect & Incident",
+            "count": 3,
+            "weekStarting": "2020-04-27T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Feature",
+            "count": 8,
+            "weekStarting": "2020-04-27T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Enhancement & Optimization",
+            "count": 4,
+            "weekStarting": "2020-04-27T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Enablers & Tech Debt",
+            "count": 4,
+            "weekStarting": "2020-04-27T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Risks & Compliance",
+            "count": 3,
+            "weekStarting": "2020-04-27T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Management Activity",
+            "count": 7,
+            "weekStarting": "2020-04-27T00:00:00.000-03:00"
+          }
+        ]
+      },
+      {
+        "year": 2020,
+        "week": 19,
+        "values": [
+          {
+            "itemTypeName": "Defect & Incident",
+            "count": 11,
+            "weekStarting": "2020-05-04T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Feature",
+            "count": 8,
+            "weekStarting": "2020-05-04T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Enhancement & Optimization",
+            "count": 9,
+            "weekStarting": "2020-05-04T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Enablers & Tech Debt",
+            "count": 16,
+            "weekStarting": "2020-05-04T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Risks & Compliance",
+            "count": 18,
+            "weekStarting": "2020-05-04T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Management Activity",
+            "count": 23,
+            "weekStarting": "2020-05-04T00:00:00.000-03:00"
+          }
+        ]
+      },
+      {
+        "year": 2020,
+        "week": 20,
+        "values": [
+          {
+            "itemTypeName": "Defect & Incident",
+            "count": 12,
+            "weekStarting": "2020-05-11T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Feature",
+            "count": 14,
+            "weekStarting": "2020-05-11T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Enhancement & Optimization",
+            "count": 14,
+            "weekStarting": "2020-05-11T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Enablers & Tech Debt",
+            "count": 21,
+            "weekStarting": "2020-05-11T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Risks & Compliance",
+            "count": 25,
+            "weekStarting": "2020-05-11T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Management Activity",
+            "count": 23,
+            "weekStarting": "2020-05-11T00:00:00.000-03:00"
+          }
+        ]
+      },
+      {
+        "year": 2020,
+        "week": 21,
+        "values": [
+          {
+            "itemTypeName": "Defect & Incident",
+            "count": 11,
+            "weekStarting": "2020-05-18T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Feature",
+            "count": 15,
+            "weekStarting": "2020-05-18T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Enhancement & Optimization",
+            "count": 16,
+            "weekStarting": "2020-05-18T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Enablers & Tech Debt",
+            "count": 18,
+            "weekStarting": "2020-05-18T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Risks & Compliance",
+            "count": 22,
+            "weekStarting": "2020-05-18T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Management Activity",
+            "count": 17,
+            "weekStarting": "2020-05-18T00:00:00.000-03:00"
+          }
+        ]
+      },
+      {
+        "year": 2020,
+        "week": 22,
+        "values": [
+          {
+            "itemTypeName": "Defect & Incident",
+            "count": 8,
+            "weekStarting": "2020-05-25T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Feature",
+            "count": 15,
+            "weekStarting": "2020-05-25T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Enhancement & Optimization",
+            "count": 7,
+            "weekStarting": "2020-05-25T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Enablers & Tech Debt",
+            "count": 21,
+            "weekStarting": "2020-05-25T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Risks & Compliance",
+            "count": 17,
+            "weekStarting": "2020-05-25T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Management Activity",
+            "count": 15,
+            "weekStarting": "2020-05-25T00:00:00.000-03:00"
+          }
+        ]
+      },
+      {
+        "year": 2020,
+        "week": 23,
+        "values": [
+          {
+            "itemTypeName": "Defect & Incident",
+            "count": 7,
+            "weekStarting": "2020-06-01T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Feature",
+            "count": 10,
+            "weekStarting": "2020-06-01T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Enhancement & Optimization",
+            "count": 15,
+            "weekStarting": "2020-06-01T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Enablers & Tech Debt",
+            "count": 18,
+            "weekStarting": "2020-06-01T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Risks & Compliance",
+            "count": 12,
+            "weekStarting": "2020-06-01T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Management Activity",
+            "count": 14,
+            "weekStarting": "2020-06-01T00:00:00.000-03:00"
+          }
+        ]
+      },
+      {
+        "year": 2020,
+        "week": 24,
+        "values": [
+          {
+            "itemTypeName": "Defect & Incident",
+            "count": 8,
+            "weekStarting": "2020-06-08T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Feature",
+            "count": 8,
+            "weekStarting": "2020-06-08T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Enhancement & Optimization",
+            "count": 13,
+            "weekStarting": "2020-06-08T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Enablers & Tech Debt",
+            "count": 22,
+            "weekStarting": "2020-06-08T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Risks & Compliance",
+            "count": 19,
+            "weekStarting": "2020-06-08T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Management Activity",
+            "count": 16,
+            "weekStarting": "2020-06-08T00:00:00.000-03:00"
+          }
+        ]
+      },
+      {
+        "year": 2020,
+        "week": 25,
+        "values": [
+          {
+            "itemTypeName": "Defect & Incident",
+            "count": 7,
+            "weekStarting": "2020-06-15T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Feature",
+            "count": 15,
+            "weekStarting": "2020-06-15T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Enhancement & Optimization",
+            "count": 13,
+            "weekStarting": "2020-06-15T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Enablers & Tech Debt",
+            "count": 20,
+            "weekStarting": "2020-06-15T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Risks & Compliance",
+            "count": 17,
+            "weekStarting": "2020-06-15T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Management Activity",
+            "count": 16,
+            "weekStarting": "2020-06-15T00:00:00.000-03:00"
+          }
+        ]
+      },
+      {
+        "year": 2020,
+        "week": 26,
+        "values": [
+          {
+            "itemTypeName": "Defect & Incident",
+            "count": 9,
+            "weekStarting": "2020-06-22T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Feature",
+            "count": 6,
+            "weekStarting": "2020-06-22T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Enhancement & Optimization",
+            "count": 3,
+            "weekStarting": "2020-06-22T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Enablers & Tech Debt",
+            "count": 23,
+            "weekStarting": "2020-06-22T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Risks & Compliance",
+            "count": 16,
+            "weekStarting": "2020-06-22T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Management Activity",
+            "count": 21,
+            "weekStarting": "2020-06-22T00:00:00.000-03:00"
+          }
+        ]
+      },
+      {
+        "year": 2020,
+        "week": 27,
+        "values": [
+          {
+            "itemTypeName": "Defect & Incident",
+            "count": 7,
+            "weekStarting": "2020-06-29T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Feature",
+            "count": 11,
+            "weekStarting": "2020-06-29T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Enhancement & Optimization",
+            "count": 12,
+            "weekStarting": "2020-06-29T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Enablers & Tech Debt",
+            "count": 20,
+            "weekStarting": "2020-06-29T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Risks & Compliance",
+            "count": 17,
+            "weekStarting": "2020-06-29T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Management Activity",
+            "count": 17,
+            "weekStarting": "2020-06-29T00:00:00.000-03:00"
+          }
+        ]
+      },
+      {
+        "year": 2020,
+        "week": 28,
+        "values": [
+          {
+            "itemTypeName": "Defect & Incident",
+            "count": 10,
+            "weekStarting": "2020-07-06T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Feature",
+            "count": 8,
+            "weekStarting": "2020-07-06T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Enhancement & Optimization",
+            "count": 7,
+            "weekStarting": "2020-07-06T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Enablers & Tech Debt",
+            "count": 23,
+            "weekStarting": "2020-07-06T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Risks & Compliance",
+            "count": 19,
+            "weekStarting": "2020-07-06T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Management Activity",
+            "count": 17,
+            "weekStarting": "2020-07-06T00:00:00.000-03:00"
+          }
+        ]
+      },
+      {
+        "year": 2020,
+        "week": 29,
+        "values": [
+          {
+            "itemTypeName": "Defect & Incident",
+            "count": 7,
+            "weekStarting": "2020-07-13T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Feature",
+            "count": 7,
+            "weekStarting": "2020-07-13T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Enhancement & Optimization",
+            "count": 12,
+            "weekStarting": "2020-07-13T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Enablers & Tech Debt",
+            "count": 20,
+            "weekStarting": "2020-07-13T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Risks & Compliance",
+            "count": 14,
+            "weekStarting": "2020-07-13T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Management Activity",
+            "count": 17,
+            "weekStarting": "2020-07-13T00:00:00.000-03:00"
+          }
+        ]
+      },
+      {
+        "year": 2020,
+        "week": 30,
+        "values": [
+          {
+            "itemTypeName": "Defect & Incident",
+            "count": 10,
+            "weekStarting": "2020-07-20T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Feature",
+            "count": 6,
+            "weekStarting": "2020-07-20T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Enhancement & Optimization",
+            "count": 4,
+            "weekStarting": "2020-07-20T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Enablers & Tech Debt",
+            "count": 21,
+            "weekStarting": "2020-07-20T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Risks & Compliance",
+            "count": 14,
+            "weekStarting": "2020-07-20T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Management Activity",
+            "count": 22,
+            "weekStarting": "2020-07-20T00:00:00.000-03:00"
+          }
+        ]
+      },
+      {
+        "year": 2020,
+        "week": 31,
+        "values": [
+          {
+            "itemTypeName": "Defect & Incident",
+            "count": 5,
+            "weekStarting": "2020-07-27T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Feature",
+            "count": 4,
+            "weekStarting": "2020-07-27T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Enhancement & Optimization",
+            "count": 6,
+            "weekStarting": "2020-07-27T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Enablers & Tech Debt",
+            "count": 13,
+            "weekStarting": "2020-07-27T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Risks & Compliance",
+            "count": 12,
+            "weekStarting": "2020-07-27T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Management Activity",
+            "count": 10,
+            "weekStarting": "2020-07-27T00:00:00.000-03:00"
+          }
+        ]
+      }
+    ]
+  },
+  "quality": {
+    "years": [
+      {
+        "year": 2020,
+        "values": [
+          {
+            "itemTypeName": "Failure Demand",
+            "count": 255
+          },
+          {
+            "itemTypeName": "Non-Value Demand",
+            "count": 235
+          },
+          {
+            "itemTypeName": "Value Demand",
+            "count": 310
+          }
+        ]
+      },
+      {
+        "year": 2021,
+        "values": [
+          {
+            "itemTypeName": "Failure Demand",
+            "count": 110
+          },
+          {
+            "itemTypeName": "Non-Value Demand",
+            "count": 185
+          },
+          {
+            "itemTypeName": "Value Demand",
+            "count": 105
+          }
+        ]
+      }
+    ],
+    "quarters": [
+      {
+        "year": 2020,
+        "quarter": 2,
+        "values": [
+          {
+            "itemTypeName": "Failure Demand",
+            "count": 15
+          },
+          {
+            "itemTypeName": "Non-Value Demand",
+            "count": 125
+          },
+          {
+            "itemTypeName": "Value Demand",
+            "count": 60
+          }
+        ]
+      },
+      {
+        "year": 2020,
+        "quarter": 3,
+        "values": [
+          {
+            "itemTypeName": "Failure Demand",
+            "count": 40
+          },
+          {
+            "itemTypeName": "Non-Value Demand",
+            "count": 65
+          },
+          {
+            "itemTypeName": "Value Demand",
+            "count": 195
+          }
+        ]
+      },
+      {
+        "year": 2020,
+        "quarter": 4,
+        "values": [
+          {
+            "itemTypeName": "Failure Demand",
+            "count": 200
+          },
+          {
+            "itemTypeName": "Non-Value Demand",
+            "count": 45
+          },
+          {
+            "itemTypeName": "Value Demand",
+            "count": 55
+          }
+        ]
+      },
+      {
+        "year": 2021,
+        "quarter": 1,
+        "values": [
+          {
+            "itemTypeName": "Failure Demand",
+            "count": 100
+          },
+          {
+            "itemTypeName": "Non-Value Demand",
+            "count": 90
+          },
+          {
+            "itemTypeName": "Value Demand",
+            "count": 70
+          }
+        ]
+      },
+      {
+        "year": 2021,
+        "quarter": 2,
+        "values": [
+          {
+            "itemTypeName": "Failure Demand",
+            "count": 10
+          },
+          {
+            "itemTypeName": "Non-Value Demand",
+            "count": 55
+          },
+          {
+            "itemTypeName": "Value Demand",
+            "count": 35
+          }
+        ]
+      }
+    ],
+    "months": [
+      {
+        "year": 2020,
+        "month": 5,
+        "values": [
+          {
+            "itemTypeName": "Failure Demand",
+            "count": 5
+          },
+          {
+            "itemTypeName": "Non-Value Demand",
+            "count": 70
+          },
+          {
+            "itemTypeName": "Value Demand",
+            "count": 25
+          }
+        ]
+      },
+      {
+        "year": 2020,
+        "month": 6,
+        "values": [
+          {
+            "itemTypeName": "Failure Demand",
+            "count": 10
+          },
+          {
+            "itemTypeName": "Non-Value Demand",
+            "count": 55
+          },
+          {
+            "itemTypeName": "Value Demand",
+            "count": 35
+          }
+        ]
+      },
+      {
+        "year": 2020,
+        "month": 7,
+        "values": [
+          {
+            "itemTypeName": "Failure Demand",
+            "count": 20
+          },
+          {
+            "itemTypeName": "Non-Value Demand",
+            "count": 40
+          },
+          {
+            "itemTypeName": "Value Demand",
+            "count": 40
+          }
+        ]
+      },
+      {
+        "year": 2020,
+        "month": 8,
+        "values": [
+          {
+            "itemTypeName": "Failure Demand",
+            "count": 15
+          },
+          {
+            "itemTypeName": "Non-Value Demand",
+            "count": 25
+          },
+          {
+            "itemTypeName": "Value Demand",
+            "count": 60
+          }
+        ]
+      },
+      {
+        "year": 2020,
+        "month": 9,
+        "values": [
+          {
+            "itemTypeName": "Failure Demand",
+            "count": 5
+          },
+          {
+            "itemTypeName": "Non-Value Demand",
+            "count": 0
+          },
+          {
+            "itemTypeName": "Value Demand",
+            "count": 95
+          }
+        ]
+      },
+      {
+        "year": 2020,
+        "month": 10,
+        "values": [
+          {
+            "itemTypeName": "Failure Demand",
+            "count": 70
+          },
+          {
+            "itemTypeName": "Non-Value Demand",
+            "count": 10
+          },
+          {
+            "itemTypeName": "Value Demand",
+            "count": 20
+          }
+        ]
+      },
+      {
+        "year": 2020,
+        "month": 11,
+        "values": [
+          {
+            "itemTypeName": "Failure Demand",
+            "count": 70
+          },
+          {
+            "itemTypeName": "Non-Value Demand",
+            "count": 15
+          },
+          {
+            "itemTypeName": "Value Demand",
+            "count": 15
+          }
+        ]
+      },
+      {
+        "year": 2020,
+        "month": 12,
+        "values": [
+          {
+            "itemTypeName": "Failure Demand",
+            "count": 60
+          },
+          {
+            "itemTypeName": "Non-Value Demand",
+            "count": 20
+          },
+          {
+            "itemTypeName": "Value Demand",
+            "count": 20
+          }
+        ]
+      },
+      {
+        "year": 2021,
+        "month": 1,
+        "values": [
+          {
+            "itemTypeName": "Failure Demand",
+            "count": 50
+          },
+          {
+            "itemTypeName": "Non-Value Demand",
+            "count": 35
+          },
+          {
+            "itemTypeName": "Value Demand",
+            "count": 15
+          }
+        ]
+      },
+      {
+        "year": 2021,
+        "month": 2,
+        "values": [
+          {
+            "itemTypeName": "Failure Demand",
+            "count": 30
+          },
+          {
+            "itemTypeName": "Non-Value Demand",
+            "count": 45
+          },
+          {
+            "itemTypeName": "Value Demand",
+            "count": 25
+          }
+        ]
+      },
+      {
+        "year": 2021,
+        "month": 3,
+        "values": [
+          {
+            "itemTypeName": "Failure Demand",
+            "count": 20
+          },
+          {
+            "itemTypeName": "Non-Value Demand",
+            "count": 50
+          },
+          {
+            "itemTypeName": "Value Demand",
+            "count": 30
+          }
+        ]
+      },
+      {
+        "year": 2021,
+        "month": 4,
+        "values": [
+          {
+            "itemTypeName": "Failure Demand",
+            "count": 10
+          },
+          {
+            "itemTypeName": "Non-Value Demand",
+            "count": 55
+          },
+          {
+            "itemTypeName": "Value Demand",
+            "count": 35
+          }
+        ]
+      }
+    ],
+    "weeks": [
+      {
+        "year": 2020,
+        "week": 18,
+        "values": [
+          {
+            "itemTypeName": "Failure Demand",
+            "count": 1,
+            "weekStarting": "2020-04-27T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Non-Value Demand",
+            "count": 9,
+            "weekStarting": "2020-04-27T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Value Demand",
+            "count": 2,
+            "weekStarting": "2020-04-27T00:00:00.000-03:00"
+          }
+        ]
+      },
+      {
+        "year": 2020,
+        "week": 19,
+        "values": [
+          {
+            "itemTypeName": "Failure Demand",
+            "count": 1,
+            "weekStarting": "2020-05-04T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Non-Value Demand",
+            "count": 12,
+            "weekStarting": "2020-05-04T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Value Demand",
+            "count": 6,
+            "weekStarting": "2020-05-04T00:00:00.000-03:00"
+          }
+        ]
+      },
+      {
+        "year": 2020,
+        "week": 20,
+        "values": [
+          {
+            "itemTypeName": "Failure Demand",
+            "count": 1,
+            "weekStarting": "2020-05-11T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Non-Value Demand",
+            "count": 18,
+            "weekStarting": "2020-05-11T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Value Demand",
+            "count": 7,
+            "weekStarting": "2020-05-11T00:00:00.000-03:00"
+          }
+        ]
+      },
+      {
+        "year": 2020,
+        "week": 21,
+        "values": [
+          {
+            "itemTypeName": "Non-Value Demand",
+            "count": 18,
+            "weekStarting": "2020-05-18T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Value Demand",
+            "count": 5,
+            "weekStarting": "2020-05-18T00:00:00.000-03:00"
+          }
+        ]
+      },
+      {
+        "year": 2020,
+        "week": 22,
+        "values": [
+          {
+            "itemTypeName": "Failure Demand",
+            "count": 2,
+            "weekStarting": "2020-05-25T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Non-Value Demand",
+            "count": 13,
+            "weekStarting": "2020-05-25T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Value Demand",
+            "count": 5,
+            "weekStarting": "2020-05-25T00:00:00.000-03:00"
+          }
+        ]
+      },
+      {
+        "year": 2020,
+        "week": 23,
+        "values": [
+          {
+            "itemTypeName": "Failure Demand",
+            "count": 3,
+            "weekStarting": "2020-06-01T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Non-Value Demand",
+            "count": 16,
+            "weekStarting": "2020-06-01T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Value Demand",
+            "count": 9,
+            "weekStarting": "2020-06-01T00:00:00.000-03:00"
+          }
+        ]
+      },
+      {
+        "year": 2020,
+        "week": 24,
+        "values": [
+          {
+            "itemTypeName": "Failure Demand",
+            "count": 1,
+            "weekStarting": "2020-06-08T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Non-Value Demand",
+            "count": 12,
+            "weekStarting": "2020-06-08T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Value Demand",
+            "count": 9,
+            "weekStarting": "2020-06-08T00:00:00.000-03:00"
+          }
+        ]
+      },
+      {
+        "year": 2020,
+        "week": 25,
+        "values": [
+          {
+            "itemTypeName": "Failure Demand",
+            "count": 2,
+            "weekStarting": "2020-06-15T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Non-Value Demand",
+            "count": 8,
+            "weekStarting": "2020-06-15T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Value Demand",
+            "count": 3,
+            "weekStarting": "2020-06-15T00:00:00.000-03:00"
+          }
+        ]
+      },
+      {
+        "year": 2020,
+        "week": 26,
+        "values": [
+          {
+            "itemTypeName": "Failure Demand",
+            "count": 2,
+            "weekStarting": "2020-06-22T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Non-Value Demand",
+            "count": 13,
+            "weekStarting": "2020-06-22T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Value Demand",
+            "count": 6,
+            "weekStarting": "2020-06-22T00:00:00.000-03:00"
+          }
+        ]
+      },
+      {
+        "year": 2020,
+        "week": 27,
+        "values": [
+          {
+            "itemTypeName": "Failure Demand",
+            "count": 7,
+            "weekStarting": "2020-06-29T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Non-Value Demand",
+            "count": 13,
+            "weekStarting": "2020-06-29T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Value Demand",
+            "count": 14,
+            "weekStarting": "2020-06-29T00:00:00.000-03:00"
+          }
+        ]
+      },
+      {
+        "year": 2020,
+        "week": 28,
+        "values": [
+          {
+            "itemTypeName": "Failure Demand",
+            "count": 7,
+            "weekStarting": "2020-07-06T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Non-Value Demand",
+            "count": 10,
+            "weekStarting": "2020-07-06T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Value Demand",
+            "count": 5,
+            "weekStarting": "2020-07-06T00:00:00.000-03:00"
+          }
+        ]
+      },
+      {
+        "year": 2020,
+        "week": 29,
+        "values": [
+          {
+            "itemTypeName": "Failure Demand",
+            "count": 4,
+            "weekStarting": "2020-07-13T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Non-Value Demand",
+            "count": 5,
+            "weekStarting": "2020-07-13T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Value Demand",
+            "count": 12,
+            "weekStarting": "2020-07-13T00:00:00.000-03:00"
+          }
+        ]
+      },
+      {
+        "year": 2020,
+        "week": 30,
+        "values": [
+          {
+            "itemTypeName": "Failure Demand",
+            "count": 4,
+            "weekStarting": "2020-07-20T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Non-Value Demand",
+            "count": 13,
+            "weekStarting": "2020-07-20T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Value Demand",
+            "count": 9,
+            "weekStarting": "2020-07-20T00:00:00.000-03:00"
+          }
+        ]
+      },
+      {
+        "year": 2020,
+        "week": 31,
+        "values": [
+          {
+            "itemTypeName": "Non-Value Demand",
+            "count": 5,
+            "weekStarting": "2020-07-27T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Value Demand",
+            "count": 8,
+            "weekStarting": "2020-07-27T00:00:00.000-03:00"
+          }
+        ]
+      }
+    ]
+  },
+  "valueArea": {
+    "years": [
+      {
+        "year": 2020,
+        "values": [
+          {
+            "itemTypeName": "Customer",
+            "count": 540
+          },
+          {
+            "itemTypeName": "Infrastructure",
+            "count": 140
+          },
+          {
+            "itemTypeName": "Architecture",
+            "count": 180
+          },
+          {
+            "itemTypeName": "Business",
+            "count": 50
+          }
+        ]
+      },
+      {
+        "year": 2021,
+        "values": [
+          {
+            "itemTypeName": "Customer",
+            "count": 135
+          },
+          {
+            "itemTypeName": "Infrastructure",
+            "count": 25
+          },
+          {
+            "itemTypeName": "Architecture",
+            "count": 90
+          },
+          {
+            "itemTypeName": "Business",
+            "count": 40
+          }
+        ]
+      }
+    ],
+    "quarters": [
+      {
+        "year": 2020,
+        "quarter": 2,
+        "values": [
+          {
+            "itemTypeName": "Customer",
+            "count": 105
+          },
+          {
+            "itemTypeName": "Infrastructure",
+            "count": 90
+          },
+          {
+            "itemTypeName": "Architecture",
+            "count": 90
+          },
+          {
+            "itemTypeName": "Business",
+            "count": 25
+          }
+        ]
+      },
+      {
+        "year": 2020,
+        "quarter": 3,
+        "values": [
+          {
+            "itemTypeName": "Customer",
+            "count": 245
+          },
+          {
+            "itemTypeName": "Infrastructure",
+            "count": 30
+          },
+          {
+            "itemTypeName": "Architecture",
+            "count": 15
+          },
+          {
+            "itemTypeName": "Business",
+            "count": 0
+          }
+        ]
+      },
+      {
+        "year": 2020,
+        "quarter": 4,
+        "values": [
+          {
+            "itemTypeName": "Customer",
+            "count": 190
+          },
+          {
+            "itemTypeName": "Infrastructure",
+            "count": 20
+          },
+          {
+            "itemTypeName": "Architecture",
+            "count": 75
+          },
+          {
+            "itemTypeName": "Business",
+            "count": 20
+          }
+        ]
+      },
+      {
+        "year": 2021,
+        "quarter": 1,
+        "values": [
+          {
+            "itemTypeName": "Customer",
+            "count": 100
+          },
+          {
+            "itemTypeName": "Infrastructure",
+            "count": 15
+          },
+          {
+            "itemTypeName": "Architecture",
+            "count": 75
+          },
+          {
+            "itemTypeName": "Business",
+            "count": 45
+          }
+        ]
+      },
+      {
+        "year": 2021,
+        "quarter": 1,
+        "values": [
+          {
+            "itemTypeName": "Customer",
+            "count": 35
+          },
+          {
+            "itemTypeName": "Infrastructure",
+            "count": 10
+          },
+          {
+            "itemTypeName": "Architecture",
+            "count": 15
+          },
+          {
+            "itemTypeName": "Business",
+            "count": 5
+          }
+        ]
+      }
+    ],
+    "months": [
+      {
+        "year": 2020,
+        "month": 5,
+        "values": [
+          {
+            "itemTypeName": "Customer",
+            "count": 25
+          },
+          {
+            "itemTypeName": "Infrastructure",
+            "count": 40
+          },
+          {
+            "itemTypeName": "Architecture",
+            "count": 30
+          },
+          {
+            "itemTypeName": "Business",
+            "count": 5
+          }
+        ]
+      },
+      {
+        "year": 2020,
+        "month": 6,
+        "values": [
+          {
+            "itemTypeName": "Customer",
+            "count": 30
+          },
+          {
+            "itemTypeName": "Infrastructure",
+            "count": 30
+          },
+          {
+            "itemTypeName": "Architecture",
+            "count": 35
+          },
+          {
+            "itemTypeName": "Business",
+            "count": 5
+          }
+        ]
+      },
+      {
+        "year": 2020,
+        "month": 7,
+        "values": [
+          {
+            "itemTypeName": "Customer",
+            "count": 50
+          },
+          {
+            "itemTypeName": "Infrastructure",
+            "count": 20
+          },
+          {
+            "itemTypeName": "Architecture",
+            "count": 25
+          },
+          {
+            "itemTypeName": "Business",
+            "count": 5
+          }
+        ]
+      },
+      {
+        "year": 2020,
+        "month": 8,
+        "values": [
+          {
+            "itemTypeName": "Customer",
+            "count": 80
+          },
+          {
+            "itemTypeName": "Infrastructure",
+            "count": 5
+          },
+          {
+            "itemTypeName": "Architecture",
+            "count": 5
+          },
+          {
+            "itemTypeName": "Business",
+            "count": 10
+          }
+        ]
+      },
+      {
+        "year": 2020,
+        "month": 9,
+        "values": [
+          {
+            "itemTypeName": "Customer",
+            "count": 95
+          },
+          {
+            "itemTypeName": "Infrastructure",
+            "count": 5
+          },
+          {
+            "itemTypeName": "Architecture",
+            "count": 0
+          },
+          {
+            "itemTypeName": "Business",
+            "count": 0
+          }
+        ]
+      },
+      {
+        "year": 2020,
+        "month": 10,
+        "values": [
+          {
+            "itemTypeName": "Customer",
+            "count": 70
+          },
+          {
+            "itemTypeName": "Infrastructure",
+            "count": 20
+          },
+          {
+            "itemTypeName": "Architecture",
+            "count": 10
+          },
+          {
+            "itemTypeName": "Business",
+            "count": 0
+          }
+        ]
+      },
+      {
+        "year": 2020,
+        "month": 11,
+        "values": [
+          {
+            "itemTypeName": "Customer",
+            "count": 75
+          },
+          {
+            "itemTypeName": "Infrastructure",
+            "count": 5
+          },
+          {
+            "itemTypeName": "Architecture",
+            "count": 20
+          },
+          {
+            "itemTypeName": "Business",
+            "count": 0
+          }
+        ]
+      },
+      {
+        "year": 2020,
+        "month": 12,
+        "values": [
+          {
+            "itemTypeName": "Customer",
+            "count": 60
+          },
+          {
+            "itemTypeName": "Infrastructure",
+            "count": 5
+          },
+          {
+            "itemTypeName": "Architecture",
+            "count": 25
+          },
+          {
+            "itemTypeName": "Business",
+            "count": 10
+          }
+        ]
+      },
+      {
+        "year": 2021,
+        "month": 1,
+        "values": [
+          {
+            "itemTypeName": "Customer",
+            "count": 55
+          },
+          {
+            "itemTypeName": "Infrastructure",
+            "count": 10
+          },
+          {
+            "itemTypeName": "Architecture",
+            "count": 30
+          },
+          {
+            "itemTypeName": "Business",
+            "count": 5
+          }
+        ]
+      },
+      {
+        "year": 2021,
+        "month": 2,
+        "values": [
+          {
+            "itemTypeName": "Customer",
+            "count": 55
+          },
+          {
+            "itemTypeName": "Infrastructure",
+            "count": 5
+          },
+          {
+            "itemTypeName": "Architecture",
+            "count": 40
+          },
+          {
+            "itemTypeName": "Business",
+            "count": 5
+          }
+        ]
+      },
+      {
+        "year": 2021,
+        "month": 3,
+        "values": [
+          {
+            "itemTypeName": "Customer",
+            "count": 55
+          },
+          {
+            "itemTypeName": "Infrastructure",
+            "count": 10
+          },
+          {
+            "itemTypeName": "Architecture",
+            "count": 35
+          },
+          {
+            "itemTypeName": "Business",
+            "count": 5
+          }
+        ]
+      },
+      {
+        "year": 2021,
+        "month": 4,
+        "values": [
+          {
+            "itemTypeName": "Customer",
+            "count": 35
+          },
+          {
+            "itemTypeName": "Infrastructure",
+            "count": 10
+          },
+          {
+            "itemTypeName": "Architecture",
+            "count": 15
+          },
+          {
+            "itemTypeName": "Business",
+            "count": 40
+          }
+        ]
+      }
+    ],
+    "weeks": [
+      {
+        "year": 2020,
+        "week": 18,
+        "values": [
+          {
+            "itemTypeName": "Customer",
+            "count": 2,
+            "weekStarting": "2020-04-27T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Infrastructure",
+            "count": 3,
+            "weekStarting": "2020-04-27T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Architecture",
+            "count": 4,
+            "weekStarting": "2020-04-27T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Business",
+            "count": 2,
+            "weekStarting": "2020-04-27T00:00:00.000-03:00"
+          }
+        ]
+      },
+      {
+        "year": 2020,
+        "week": 19,
+        "values": [
+          {
+            "itemTypeName": "Customer",
+            "count": 6,
+            "weekStarting": "2020-05-04T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Infrastructure",
+            "count": 9,
+            "weekStarting": "2020-05-04T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Architecture",
+            "count": 5,
+            "weekStarting": "2020-05-04T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Business",
+            "count": 1,
+            "weekStarting": "2020-05-04T00:00:00.000-03:00"
+          }
+        ]
+      },
+      {
+        "year": 2020,
+        "week": 20,
+        "values": [
+          {
+            "itemTypeName": "Customer",
+            "count": 4,
+            "weekStarting": "2020-05-11T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Infrastructure",
+            "count": 4,
+            "weekStarting": "2020-05-11T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Architecture",
+            "count": 5,
+            "weekStarting": "2020-05-11T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Business",
+            "count": 2,
+            "weekStarting": "2020-05-11T00:00:00.000-03:00"
+          }
+        ]
+      },
+      {
+        "year": 2020,
+        "week": 21,
+        "values": [
+          {
+            "itemTypeName": "Customer",
+            "count": 4,
+            "weekStarting": "2020-05-18T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Infrastructure",
+            "count": 11,
+            "weekStarting": "2020-05-18T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Architecture",
+            "count": 11,
+            "weekStarting": "2020-05-18T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Business",
+            "count": 0,
+            "weekStarting": "2020-05-18T00:00:00.000-03:00"
+          }
+        ]
+      },
+      {
+        "year": 2020,
+        "week": 22,
+        "values": [
+          {
+            "itemTypeName": "Customer",
+            "count": 9,
+            "weekStarting": "2020-05-25T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Infrastructure",
+            "count": 13,
+            "weekStarting": "2020-05-25T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Architecture",
+            "count": 5,
+            "weekStarting": "2020-05-25T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Business",
+            "count": 0,
+            "weekStarting": "2020-05-25T00:00:00.000-03:00"
+          }
+        ]
+      },
+      {
+        "year": 2020,
+        "week": 23,
+        "values": [
+          {
+            "itemTypeName": "Customer",
+            "count": 8,
+            "weekStarting": "2020-06-01T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Infrastructure",
+            "count": 7,
+            "weekStarting": "2020-06-01T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Architecture",
+            "count": 4,
+            "weekStarting": "2020-06-01T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Business",
+            "count": 1,
+            "weekStarting": "2020-06-01T00:00:00.000-03:00"
+          }
+        ]
+      },
+      {
+        "year": 2020,
+        "week": 24,
+        "values": [
+          {
+            "itemTypeName": "Customer",
+            "count": 8,
+            "weekStarting": "2020-06-08T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Infrastructure",
+            "count": 11,
+            "weekStarting": "2020-06-08T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Architecture",
+            "count": 8,
+            "weekStarting": "2020-06-08T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Business",
+            "count": 3,
+            "weekStarting": "2020-06-08T00:00:00.000-03:00"
+          }
+        ]
+      },
+      {
+        "year": 2020,
+        "week": 25,
+        "values": [
+          {
+            "itemTypeName": "Customer",
+            "count": 5,
+            "weekStarting": "2020-06-15T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Infrastructure",
+            "count": 6,
+            "weekStarting": "2020-06-15T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Architecture",
+            "count": 9,
+            "weekStarting": "2020-06-15T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Business",
+            "count": 1,
+            "weekStarting": "2020-06-15T00:00:00.000-03:00"
+          }
+        ]
+      },
+      {
+        "year": 2020,
+        "week": 26,
+        "values": [
+          {
+            "itemTypeName": "Customer",
+            "count": 7,
+            "weekStarting": "2020-06-22T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Infrastructure",
+            "count": 3,
+            "weekStarting": "2020-06-22T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Architecture",
+            "count": 11,
+            "weekStarting": "2020-06-22T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Business",
+            "count": 0,
+            "weekStarting": "2020-06-22T00:00:00.000-03:00"
+          }
+        ]
+      },
+      {
+        "year": 2020,
+        "week": 27,
+        "values": [
+          {
+            "itemTypeName": "Customer",
+            "count": 11,
+            "weekStarting": "2020-06-29T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Infrastructure",
+            "count": 3,
+            "weekStarting": "2020-06-29T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Architecture",
+            "count": 8,
+            "weekStarting": "2020-06-22T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Business",
+            "count": 1,
+            "weekStarting": "2020-06-22T00:00:00.000-03:00"
+          }
+        ]
+      },
+      {
+        "year": 2020,
+        "week": 28,
+        "values": [
+          {
+            "itemTypeName": "Customer",
+            "count": 10,
+            "weekStarting": "2020-07-06T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Infrastructure",
+            "count": 2,
+            "weekStarting": "2020-07-06T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Architecture",
+            "count": 8,
+            "weekStarting": "2020-07-06T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Business",
+            "count": 1,
+            "weekStarting": "2020-07-06T00:00:00.000-03:00"
+          }
+        ]
+      },
+      {
+        "year": 2020,
+        "week": 29,
+        "values": [
+          {
+            "itemTypeName": "Customer",
+            "count": 9,
+            "weekStarting": "2020-07-13T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Infrastructure",
+            "count": 4,
+            "weekStarting": "2020-07-13T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Architecture",
+            "count": 6,
+            "weekStarting": "2020-07-13T00:00:00.000-03:00"
+          }
+        ]
+      },
+      {
+        "year": 2020,
+        "week": 30,
+        "values": [
+          {
+            "itemTypeName": "Customer",
+            "count": 14,
+            "weekStarting": "2020-07-20T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Infrastructure",
+            "count": 7,
+            "weekStarting": "2020-07-20T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Architecture",
+            "count": 6,
+            "weekStarting": "2020-07-20T00:00:00.000-03:00"
+          }
+        ]
+      },
+      {
+        "year": 2020,
+        "week": 31,
+        "values": [
+          {
+            "itemTypeName": "Customer",
+            "count": 14,
+            "weekStarting": "2020-07-27T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Infrastructure",
+            "count": 4,
+            "weekStarting": "2020-07-27T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Architecture",
+            "count": 3,
+            "weekStarting": "2020-07-27T00:00:00.000-03:00"
+          },
+          {
+            "itemTypeName": "Business",
+            "count": 3,
+            "weekStarting": "2020-07-27T00:00:00.000-03:00"
+          }
+        ]
+      }
+    ]
+  }
+}

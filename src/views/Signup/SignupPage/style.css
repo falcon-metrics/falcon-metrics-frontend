@@ -1,0 +1,39 @@
+.company-size-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 36px;
+  margin-bottom: 12px;
+  text-transform: Capitalize;
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(50, 49, 48);
+  background: #fff;
+  border-radius: 16px;
+  font-family: 'Open Sans', 'Roboto', 'Helvetica', 'Arial', sans-serif;
+}
+
+.company-size-container .MuiTabs-indicator {
+  background-color: transparent;
+}
+
+.company-size-container .Mui-selected {
+  border: 0;
+  background: #616161;
+  color: #fff !important;
+  border-radius: 20px;
+}
+
+.company-size-container .MuiTab-textColorPrimary {
+  color: rgb(50, 49, 48);
+}
+
+.company-size-container .MuiTab-root {
+  /*border: 1px solid blue;*/
+  min-height: 36px !important;
+  display: flex;
+  width: 100%;
+  background: '#fff';
+  border-radius: 18;
+  margin-left: 0;
+}

@@ -1,0 +1,218 @@
+{
+  "name": "front-end",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "https://api.example.com",
+  "scripts": {
+    "start": "react-scripts start",
+    "local-start": "REACT_APP_API_BASE_URL=http://localhost:4000/prod/ react-scripts start",
+    "build": "node ./node_modules/react-scripts/bin/react-scripts.js build",
+    "test": "jest --coverage --max-workers=1",
+    "prettier": "prettier --write './**/*.{js,jsx,ts,tsx,json,css,html}'",
+    "deploy": "serverless plugin install -n serverless-s3-deploy && serverless deploy",
+    "storybook": "start-storybook -p 6006 -s public",
+    "build-storybook": "build-storybook -s public",
+    "test-verify": "jest --coverage",
+    "test-coverage": "jest --ci --reporters=default --reporters=jest-sonar-reporter --coverage --testResultsProcessor=jest-sonar-reporter",
+    "postinstall": "copyfiles -f node_modules/@bryntum/gantt/fonts/*.* public/themes/fonts/ && copyfiles -f node_modules/@bryntum/gantt/*.css public/themes/"
+  },
+  "dependencies": {
+    "@auth0/auth0-react": "^1.5.0",
+    "@date-io/date-fns": "1.3",
+    "@emoji-mart/data": "^1.1.2",
+    "@emoji-mart/react": "^1.1.1",
+    "@fluentui/react": "^8.8.0",
+    "@hookform/resolvers": "^2.5.1",
+    "@material-ui/core": "^4.11.4",
+    "@material-ui/icons": "^4.9.1",
+    "@material-ui/lab": "^4.0.0-alpha.58",
+    "@material-ui/pickers": "^3.3.10",
+    "@material-ui/styles": "^4.11.4",
+    "@mui/x-data-grid-pro": "^4.0.0",
+    "@storybook/react": "^7.0.18",
+    "@unicef/material-ui-currency-textfield": "^0.8.6",
+    "axios": "^0.21.4",
+    "axios-mock-adapter": "^1.19.0",
+    "buffer": "^4.9.2",
+    "caniuse-lite": "^1.0.30001486",
+    "classnames": "^2.3.2",
+    "csvtojson": "^2.0.10",
+    "d3-force": "^3.0.0",
+    "d3-hierarchy": "^3.1.2",
+    "date-fns": "^2.21.3",
+    "emoji-mart": "^5.5.2",
+    "exceljs": "^4.4.0",
+    "file-saver": "^2.0.5",
+    "flexsearch": "^0.7.31",
+    "jsonata": "^1.8.4",
+    "lodash": "^4.17.21",
+    "luxon": "^2.0.2",
+    "material-ui-color": "^1.2.0",
+    "material-ui-confirm": "^2.1.3",
+    "mathjs": "^7.5.1",
+    "mobx": "^6.10.2",
+    "mobx-react-lite": "^4.0.4",
+    "mobx-utils": "^6.0.8",
+    "morgan": "^1.10.0",
+    "morphism": "^2.1.1",
+    "nanoid": "^3.1.23",
+    "notistack": "^1.0.6",
+    "office-ui-fabric-react": "^7.166.0",
+    "pako": "^1.0.11",
+    "query-string": "^8.1.0",
+    "raw-loader": "^4.0.2",
+    "react": "^17.0.2",
+    "react-beautiful-dnd": "^13.1.0",
+    "react-country-region-selector": "^3.1.0",
+    "react-countup": "^5.2.0",
+    "react-dom": "^17.0.2",
+    "react-grid-layout": "^1.4.4",
+    "react-hook-form": "7.10.1-beta.0",
+    "react-number-format": "^4.8.0",
+    "react-quill": "^2.0.0",
+    "react-recompose": "^0.33.0",
+    "react-router-dom": "^5.2.0",
+    "react-scroll": "^1.8.2",
+    "react-virtualized-auto-sizer": "^1.0.20",
+    "react-virtuoso": "^4.5.1",
+    "react-window": "^1.8.9",
+    "reactflow": "^11.7.2",
+    "reactour": "^1.18.4",
+    "slugify": "^1.6.3",
+    "styled-components": "^4.0.0",
+    "swr": "^2.2.4",
+    "tinycolor2": "^1.6.0",
+    "use-media": "^1.4.0",
+    "uuid": "^8.3.2",
+    "web-vitals": "^1.0.1",
+    "yup": "^0.32.9",
+    "zingchart": "^2.9.1",
+    "zingchart-constants": "git+https://github.com/zingchart/zingchart-constants.git",
+    "zingchart-react": "^2.2.0",
+    "zlib": "^1.0.5"
+  },
+  "engines": {
+    "node": ">=15.2.0"
+  },
+  "resolutions": {
+    "aws-sdk": "2.864.0",
+    "serverless": "2.30.2"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged --allow-empty"
+    }
+  },
+  "lint-staged": {
+    "**/*.{js,jsx,ts,tsx,json}": "eslint --fix --max-warnings=0",
+    "**/*.css": "prettier-eslint --write"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.10",
+    "@babel/plugin-syntax-jsx": "^7.14.5",
+    "@babel/preset-react": "^7.14.5",
+    "@playwright/test": "^1.39.0",
+    "@testing-library/jest-dom": "^5.11.10",
+    "@testing-library/react": "^11.2.6",
+    "@types/classnames": "^2.2.11",
+    "@types/jest": "^27.0.1",
+    "@types/luxon": "^1.25.0",
+    "@types/mathjs": "^6.0.7",
+    "@types/node": "^14.14.37",
+    "@types/pako": "^2.0.1",
+    "@types/react": "^17.0.0",
+    "@types/react-beautiful-dnd": "^13.0.0",
+    "@types/react-dom": "^17.0.3",
+    "@types/react-router-dom": "^5.1.6",
+    "@types/react-scroll": "^1.8.3",
+    "@types/reactour": "^1.18.2",
+    "@types/recompose": "^0.30.7",
+    "@types/tinycolor2": "^1.4.3",
+    "@types/zingchart": "^2.8.6",
+    "copyfiles": "^2.4.1",
+    "env-cmd": "^10.1.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-import-resolver-typescript": "^2.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react-hooks": "^4.2.1-alpha-c3a19e5af-20211014",
+    "eslint-plugin-sonarjs": "^0.10.0",
+    "global-jsdom": "^8.2.0",
+    "husky": "^4",
+    "jest": "^27.0.6",
+    "jest-cli": "^27.4.7",
+    "jest-environment-jsdom": "^27.3.1",
+    "jsdom": "^16.7.0",
+    "lint-staged": "^10.5.4",
+    "playwright": "^1.40.1",
+    "postinstall": "~0.8.0",
+    "prettier": "^2.2.1",
+    "prettier-eslint": "^13.0.0",
+    "prettier-eslint-cli": "^5.0.1",
+    "react-scripts": "^5.0.1",
+    "regenerator-runtime": "^0.13.9",
+    "serverless": "2.30.2",
+    "serverless-s3-deploy": "^0.10.1",
+    "ts-jest": "^27.0.5",
+    "typescript": "^4.1.2"
+  },
+  "jestSonar": {
+    "sonar56x": true,
+    "reportPath": ".",
+    "reportFile": "coverage/sonar-report.xml",
+    "indent": 4
+  },
+  "jest": {
+    "collectCoverage": true,
+    "verbose": true,
+    "coverageReporters": [
+      "lcov",
+      "text"
+    ],
+    "moduleDirectories": [
+      "node_modules",
+      "src"
+    ],
+    "coverageDirectory": "coverage",
+    "transform": {
+      ".(ts|tsx)": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+    },
+    "moduleNameMapper": {
+      "^.+\\.svg$": "<rootDir>/src/__mocks__/svgMock.tsx",
+      "\\.(gif|ttf|eot|png|jpg)$": "<rootDir>/src/__mocks__/fileMock.ts",
+      "\\.(css|less|sass|scss)$": "<rootDir>/src/__mocks__/styleMock.ts"
+    },
+    "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js"
+    ],
+    "collectCoverageFrom": [
+      "src/**/*.{ts,tsx}"
+    ],
+    "coveragePathIgnorePatterns": [
+      "/node_modules/"
+    ],
+    "testEnvironment": "jsdom",
+    "setupFiles": [
+      "./src/__mocks__/dom.js"
+    ],
+    "globals": {
+      "ts-jest": {
+        "isolatedModules": true
+      }
+    }
+  }
+}

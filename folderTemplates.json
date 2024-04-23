@@ -1,0 +1,122 @@
+{
+  "folderTemplates.structures": [
+    {
+      "name": "TSX Component",
+      "omitParentDirectory": false,
+      "structure": [
+        {
+          "fileName": "<FTName | pascalcase>.tsx",
+          "template": "Typescript Functional Component"
+        },
+        {
+          "fileName": "<FTName | pascalcase>.test.tsx",
+          "template": "React Test"
+        },
+        {
+          "fileName": "<FTName | pascalcase>.styles.ts",
+          "template": "MUI Styles"
+        },
+        {
+          "fileName": "<FTName | pascalcase>.data.ts",
+          "template": "MUI Styles"
+        },
+        {
+          "fileName": "<FTName | pascalcase>.stories.tsx",
+          "template": "Storybook Stories"
+        },
+        {
+          "fileName": "index.ts",
+          "template": "Index File"
+        },
+        {
+          "fileName": "components",
+          "template": "EmptyDirectory"
+        },
+        {
+          "fileName": "views",
+          "template": "EmptyDirectory"
+        },
+        {
+          "fileName": "interfaces",
+          "template": "EmptyDirectory"
+        },
+        {
+          "fileName": "utils",
+          "template": "EmptyDirectory"
+        },
+        {
+          "fileName": "hooks",
+          "template": "EmptyDirectory"
+        },
+        {
+          "fileName": "contexts",
+          "template": "EmptyDirectory"
+        }
+      ]
+    }
+  ],
+  "folderTemplates.fileTemplates": {
+    "Typescript Functional Component": [
+      "import useStyles from './<FTName | pascalcase>.styles'",
+      "",
+      "export type Props = {",
+      "}",
+      "",
+      "const <FTName | pascalcase> = ({} : Props) => {",
+      "  return (",
+      "    <></>",
+      "  );",
+      "}",
+      "",
+      "export default <FTName | pascalcase>;"
+    ],
+    "Index File": [
+      "import <FTName | pascalcase> from './<FTName | pascalcase>.data';",
+      "export type { Props as <FTName | pascalcase>Props } from './<FTName | pascalcase>'",
+      "export default <FTName | pascalcase>;"
+    ],
+    "React Test": [
+      "import {} from '@testing-library/react';",
+      "",
+      "describe('<FTName | pascalcase>', () => {",
+      "  test('Should', () => {",
+      "",
+      "  })",
+      "})"
+    ],
+    "Data Fetcher": [
+      "import <FTName | pascalcase> from './<FTName | pascalcase>';",
+      "",
+      "const <FTName | pascalcase>WithData = () => {",
+      "",
+      "  return (",
+      "    <<FTName | pascalcase> />",
+      "  );",
+      "}",
+      "",
+      "export default <FTName | pascalcase>WithData;"
+    ],
+    "MUI Styles": [
+      "import { makeStyles, createStyles } from '@material-ui/core/styles';",
+      "",
+      "const useStyles = makeStyles((theme) =>",
+      "  createStyles({",
+      "",
+      "  })",
+      ");",
+      "",
+      "export default useStyles;"
+    ],
+    "Storybook Stories": [
+      "import { Story, Meta } from '@storybook/react';",
+      "import <FTName | pascalcase>, { <FTName | pascalcase>Props } from '.';",
+      "",
+      "export default {",
+      "  title: 'Example/<FTName | pascalcase>',",
+      "  component: <FTName | pascalcase>,",
+      "} as Meta;",
+      "",
+      "const Template: Story<<FTName | pascalcase>Props> = (args) => <<FTName | pascalcase> {...args} />;"
+    ]
+  }
+}

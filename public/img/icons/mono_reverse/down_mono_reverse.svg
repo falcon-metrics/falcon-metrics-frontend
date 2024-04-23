@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 266 266">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="transparent">
+    <g>
+      <path class="cls-1" d="M5,133A128,128,0,1,1,133,261,128,128,0,0,1,5,133"/>
+      <polygon class="cls-2" points="133 78.87 195.5 78.87 164.25 133 133 187.13 101.75 133 70.5 78.87 133 78.87"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,36 @@
+.scatterplot-tooltip-list-item {
+  list-style-position: inside !important;
+  font-weight: bold;
+}
+
+.scatterplot-tooltip-list-item>span {
+  font-weight: normal;
+}
+
+.scatterplot-tooltip-container b {
+  font-weight: bold !important;
+}
+
+.scatterplot-tooltip-container {
+  padding: 1em;
+  font-size: 10px;
+  max-width: 25vw;
+}
+
+.scatterplot-tooltip-title {
+  white-space: normal;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.scatterplot-tooltip-container * {
+  font-family: 'Open Sans', 'Segoe UI', 'Arial', sans-serif !important;
+}
+
+.scatterplot-tooltip-list-box {
+  outline: grey 1px solid;
+  margin-top: 0.5rem !important;
+  padding: 1em;
+  max-height: 30vh;
+  overflow: auto;
+}

@@ -1,0 +1,21 @@
+service: example-front-end
+
+plugins:
+  - serverless-s3-deploy
+
+custom:
+  assets:
+    auto: true
+    verbose: true
+    targets:
+      - bucket: ${env:DEPLOYMENT_BUCKET}
+        empty: true
+        prefix: ${env:CI_COMMIT_SHA}
+        files:
+          - source: ./build/
+            globs: '**/*'
+
+provider:
+  name: aws
+  region: ${env:AWS_DEFAULT_REGION,'ap-southeast-2'}
+  stage: ${env:CI_ENVIRONMENT_NAME, 'dev'}

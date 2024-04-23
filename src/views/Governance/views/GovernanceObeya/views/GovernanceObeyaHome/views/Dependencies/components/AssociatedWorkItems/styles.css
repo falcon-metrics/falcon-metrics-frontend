@@ -1,0 +1,14 @@
+.severity-low {
+  color: #26BAB3 !important;
+  border: 1px solid #26BAB3 !important;
+}
+
+.severity-medium {
+  color: #FFB633 !important;
+  border: 1px solid #FFB633 !important;
+}
+
+.severity-high {
+  color: #D15A46  !important;
+  border: 1px solid #D15A46 !important;
+}

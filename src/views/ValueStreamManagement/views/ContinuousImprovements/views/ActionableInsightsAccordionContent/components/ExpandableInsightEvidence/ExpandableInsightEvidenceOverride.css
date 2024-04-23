@@ -1,0 +1,16 @@
+.pattern-list .MuiAccordion-root::before, .pattern-list .MuiPaper-root::before {
+    display: 'none';
+    top: 0px;
+    left: 0;
+    right: 0;
+    height: 0px;
+    background-color: 'transparent' !important;
+}
+.analysis-unit .MuiAccordionSummary-content {
+    margin: 0px 0px 0px 5px !important;
+    background-color: 'transparent' !important;
+}
+.analysis-unit .MuiAccordionDetails-root {
+    padding: 0px 16px 2px 16px;
+    background-color: 'transparent' !important;
+}

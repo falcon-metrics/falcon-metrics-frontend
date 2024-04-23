@@ -1,0 +1,38 @@
+[
+  {
+    "expand": "description,lead,issueTypes,url,projectKeys,permissions,insight",
+    "self": "https://example.atlassian.net/rest/api/3/project/10000",
+    "id": "10000",
+    "key": "FLO",
+    "name": "Falcon Metrics",
+    "avatarUrls": {
+      "48x48": "https://example.atlassian.net/secure/projectavatar?pid=10000&avatarId=10419",
+      "24x24": "https://example.atlassian.net/secure/projectavatar?size=small&s=small&pid=10000&avatarId=10419",
+      "16x16": "https://example.atlassian.net/secure/projectavatar?size=xsmall&s=xsmall&pid=10000&avatarId=10419",
+      "32x32": "https://example.atlassian.net/secure/projectavatar?size=medium&s=medium&pid=10000&avatarId=10419"
+    },
+    "projectTypeKey": "software",
+    "simplified": false,
+    "style": "classic",
+    "isPrivate": false,
+    "properties": {}
+  },
+  {
+    "expand": "description,lead,issueTypes,url,projectKeys,permissions,insight",
+    "self": "https://example.atlassian.net/rest/api/3/project/10001",
+    "id": "10001",
+    "key": "TP",
+    "name": "test-project",
+    "avatarUrls": {
+      "48x48": "https://example.atlassian.net/secure/projectavatar?pid=10001&avatarId=10409",
+      "24x24": "https://example.atlassian.net/secure/projectavatar?size=small&s=small&pid=10001&avatarId=10409",
+      "16x16": "https://example.atlassian.net/secure/projectavatar?size=xsmall&s=xsmall&pid=10001&avatarId=10409",
+      "32x32": "https://example.atlassian.net/secure/projectavatar?size=medium&s=medium&pid=10001&avatarId=10409"
+    },
+    "projectTypeKey": "software",
+    "simplified": false,
+    "style": "classic",
+    "isPrivate": false,
+    "properties": {}
+  }
+]

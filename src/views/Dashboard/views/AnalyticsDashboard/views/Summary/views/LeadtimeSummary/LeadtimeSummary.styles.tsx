@@ -1,0 +1,15 @@
+export const defaultColorMap = {
+  'Defect & Incident': '#ff585d',
+  'Defects & Incidents': '#ff585d',
+  Features: '#008674',
+  Feature: '#008674',
+  'Enhancement & Optimization': '#64ccc9',
+  'Enhancements & Optimisations': '#64ccc9',
+  'Enablers & Tech Debt': '#003594',
+  'Risks & Compliance': '#f2c75c',
+  'Risks & Compliances': '#f2c75c',
+  'Risk & Compliance': '#f2c75c',
+  'Risk and Compliance': '#f2c75c',
+  'Management Activity': '#99c9e9',
+  'Management Activities': '#99c9e9',
+};

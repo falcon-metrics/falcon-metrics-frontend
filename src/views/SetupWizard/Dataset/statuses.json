@@ -1,0 +1,1049 @@
+[
+  {
+    "self": "https://example.atlassian.net/rest/api/3/issuetype/10002",
+    "id": "10002",
+    "name": "Task",
+    "subtask": false,
+    "statuses": [
+      {
+        "self": "https://example.atlassian.net/rest/api/3/status/10000",
+        "description": "",
+        "iconUrl": "https://example.atlassian.net/",
+        "name": "Backlog",
+        "untranslatedName": "Backlog",
+        "id": "10000",
+        "statusCategory": {
+          "self": "https://example.atlassian.net/rest/api/3/statuscategory/2",
+          "id": 2,
+          "key": "new",
+          "colorName": "blue-gray",
+          "name": "To Do"
+        }
+      },
+      {
+        "self": "https://example.atlassian.net/rest/api/3/status/3",
+        "description": "This issue is being actively worked on at the moment by the assignee.",
+        "iconUrl": "https://example.atlassian.net/images/icons/statuses/inprogress.png",
+        "name": "In Progress",
+        "untranslatedName": "In Progress",
+        "id": "3",
+        "statusCategory": {
+          "self": "https://example.atlassian.net/rest/api/3/statuscategory/4",
+          "id": 4,
+          "key": "indeterminate",
+          "colorName": "yellow",
+          "name": "In Progress"
+        }
+      },
+      {
+        "self": "https://example.atlassian.net/rest/api/3/status/10002",
+        "description": "",
+        "iconUrl": "https://example.atlassian.net/",
+        "name": "Done",
+        "untranslatedName": "Done",
+        "id": "10002",
+        "statusCategory": {
+          "self": "https://example.atlassian.net/rest/api/3/statuscategory/3",
+          "id": 3,
+          "key": "done",
+          "colorName": "green",
+          "name": "Done"
+        }
+      },
+      {
+        "self": "https://example.atlassian.net/rest/api/3/status/10003",
+        "description": "This status is managed internally by Jira Software",
+        "iconUrl": "https://example.atlassian.net/",
+        "name": "Next",
+        "untranslatedName": "Next",
+        "id": "10003",
+        "statusCategory": {
+          "self": "https://example.atlassian.net/rest/api/3/statuscategory/2",
+          "id": 2,
+          "key": "new",
+          "colorName": "blue-gray",
+          "name": "To Do"
+        }
+      },
+      {
+        "self": "https://example.atlassian.net/rest/api/3/status/10004",
+        "description": "This status is managed internally by Jira Software",
+        "iconUrl": "https://example.atlassian.net/",
+        "name": "Committed",
+        "untranslatedName": "Committed",
+        "id": "10004",
+        "statusCategory": {
+          "self": "https://example.atlassian.net/rest/api/3/statuscategory/4",
+          "id": 4,
+          "key": "indeterminate",
+          "colorName": "yellow",
+          "name": "In Progress"
+        }
+      },
+      {
+        "self": "https://example.atlassian.net/rest/api/3/status/10005",
+        "description": "This status is managed internally by Jira Software",
+        "iconUrl": "https://example.atlassian.net/",
+        "name": "Waiting",
+        "untranslatedName": "Waiting",
+        "id": "10005",
+        "statusCategory": {
+          "self": "https://example.atlassian.net/rest/api/3/statuscategory/4",
+          "id": 4,
+          "key": "indeterminate",
+          "colorName": "yellow",
+          "name": "In Progress"
+        }
+      },
+      {
+        "self": "https://example.atlassian.net/rest/api/3/status/10006",
+        "description": "This status is managed internally by Jira Software",
+        "iconUrl": "https://example.atlassian.net/",
+        "name": "Pool of Options",
+        "untranslatedName": "Pool of Options",
+        "id": "10006",
+        "statusCategory": {
+          "self": "https://example.atlassian.net/rest/api/3/statuscategory/2",
+          "id": 2,
+          "key": "new",
+          "colorName": "blue-gray",
+          "name": "To Do"
+        }
+      }
+    ]
+  },
+  {
+    "self": "https://example.atlassian.net/rest/api/3/issuetype/10003",
+    "id": "10003",
+    "name": "Sub-task",
+    "subtask": true,
+    "statuses": [
+      {
+        "self": "https://example.atlassian.net/rest/api/3/status/10000",
+        "description": "",
+        "iconUrl": "https://example.atlassian.net/",
+        "name": "Backlog",
+        "untranslatedName": "Backlog",
+        "id": "10000",
+        "statusCategory": {
+          "self": "https://example.atlassian.net/rest/api/3/statuscategory/2",
+          "id": 2,
+          "key": "new",
+          "colorName": "blue-gray",
+          "name": "To Do"
+        }
+      },
+      {
+        "self": "https://example.atlassian.net/rest/api/3/status/3",
+        "description": "This issue is being actively worked on at the moment by the assignee.",
+        "iconUrl": "https://example.atlassian.net/images/icons/statuses/inprogress.png",
+        "name": "In Progress",
+        "untranslatedName": "In Progress",
+        "id": "3",
+        "statusCategory": {
+          "self": "https://example.atlassian.net/rest/api/3/statuscategory/4",
+          "id": 4,
+          "key": "indeterminate",
+          "colorName": "yellow",
+          "name": "In Progress"
+        }
+      },
+      {
+        "self": "https://example.atlassian.net/rest/api/3/status/10002",
+        "description": "",
+        "iconUrl": "https://example.atlassian.net/",
+        "name": "Done",
+        "untranslatedName": "Done",
+        "id": "10002",
+        "statusCategory": {
+          "self": "https://example.atlassian.net/rest/api/3/statuscategory/3",
+          "id": 3,
+          "key": "done",
+          "colorName": "green",
+          "name": "Done"
+        }
+      },
+      {
+        "self": "https://example.atlassian.net/rest/api/3/status/10003",
+        "description": "This status is managed internally by Jira Software",
+        "iconUrl": "https://example.atlassian.net/",
+        "name": "Next",
+        "untranslatedName": "Next",
+        "id": "10003",
+        "statusCategory": {
+          "self": "https://example.atlassian.net/rest/api/3/statuscategory/2",
+          "id": 2,
+          "key": "new",
+          "colorName": "blue-gray",
+          "name": "To Do"
+        }
+      },
+      {
+        "self": "https://example.atlassian.net/rest/api/3/status/10004",
+        "description": "This status is managed internally by Jira Software",
+        "iconUrl": "https://example.atlassian.net/",
+        "name": "Committed",
+        "untranslatedName": "Committed",
+        "id": "10004",
+        "statusCategory": {
+          "self": "https://example.atlassian.net/rest/api/3/statuscategory/4",
+          "id": 4,
+          "key": "indeterminate",
+          "colorName": "yellow",
+          "name": "In Progress"
+        }
+      },
+      {
+        "self": "https://example.atlassian.net/rest/api/3/status/10005",
+        "description": "This status is managed internally by Jira Software",
+        "iconUrl": "https://example.atlassian.net/",
+        "name": "Waiting",
+        "untranslatedName": "Waiting",
+        "id": "10005",
+        "statusCategory": {
+          "self": "https://example.atlassian.net/rest/api/3/statuscategory/4",
+          "id": 4,
+          "key": "indeterminate",
+          "colorName": "yellow",
+          "name": "In Progress"
+        }
+      },
+      {
+        "self": "https://example.atlassian.net/rest/api/3/status/10006",
+        "description": "This status is managed internally by Jira Software",
+        "iconUrl": "https://example.atlassian.net/",
+        "name": "Pool of Options",
+        "untranslatedName": "Pool of Options",
+        "id": "10006",
+        "statusCategory": {
+          "self": "https://example.atlassian.net/rest/api/3/statuscategory/2",
+          "id": 2,
+          "key": "new",
+          "colorName": "blue-gray",
+          "name": "To Do"
+        }
+      }
+    ]
+  },
+  {
+    "self": "https://example.atlassian.net/rest/api/3/issuetype/10001",
+    "id": "10001",
+    "name": "Story",
+    "subtask": false,
+    "statuses": [
+      {
+        "self": "https://example.atlassian.net/rest/api/3/status/10000",
+        "description": "",
+        "iconUrl": "https://example.atlassian.net/",
+        "name": "Backlog",
+        "untranslatedName": "Backlog",
+        "id": "10000",
+        "statusCategory": {
+          "self": "https://example.atlassian.net/rest/api/3/statuscategory/2",
+          "id": 2,
+          "key": "new",
+          "colorName": "blue-gray",
+          "name": "To Do"
+        }
+      },
+      {
+        "self": "https://example.atlassian.net/rest/api/3/status/3",
+        "description": "This issue is being actively worked on at the moment by the assignee.",
+        "iconUrl": "https://example.atlassian.net/images/icons/statuses/inprogress.png",
+        "name": "In Progress",
+        "untranslatedName": "In Progress",
+        "id": "3",
+        "statusCategory": {
+          "self": "https://example.atlassian.net/rest/api/3/statuscategory/4",
+          "id": 4,
+          "key": "indeterminate",
+          "colorName": "yellow",
+          "name": "In Progress"
+        }
+      },
+      {
+        "self": "https://example.atlassian.net/rest/api/3/status/10002",
+        "description": "",
+        "iconUrl": "https://example.atlassian.net/",
+        "name": "Done",
+        "untranslatedName": "Done",
+        "id": "10002",
+        "statusCategory": {
+          "self": "https://example.atlassian.net/rest/api/3/statuscategory/3",
+          "id": 3,
+          "key": "done",
+          "colorName": "green",
+          "name": "Done"
+        }
+      },
+      {
+        "self": "https://example.atlassian.net/rest/api/3/status/10003",
+        "description": "This status is managed internally by Jira Software",
+        "iconUrl": "https://example.atlassian.net/",
+        "name": "Next",
+        "untranslatedName": "Next",
+        "id": "10003",
+        "statusCategory": {
+          "self": "https://example.atlassian.net/rest/api/3/statuscategory/2",
+          "id": 2,
+          "key": "new",
+          "colorName": "blue-gray",
+          "name": "To Do"
+        }
+      },
+      {
+        "self": "https://example.atlassian.net/rest/api/3/status/10004",
+        "description": "This status is managed internally by Jira Software",
+        "iconUrl": "https://example.atlassian.net/",
+        "name": "Committed",
+        "untranslatedName": "Committed",
+        "id": "10004",
+        "statusCategory": {
+          "self": "https://example.atlassian.net/rest/api/3/statuscategory/4",
+          "id": 4,
+          "key": "indeterminate",
+          "colorName": "yellow",
+          "name": "In Progress"
+        }
+      },
+      {
+        "self": "https://example.atlassian.net/rest/api/3/status/10005",
+        "description": "This status is managed internally by Jira Software",
+        "iconUrl": "https://example.atlassian.net/",
+        "name": "Waiting",
+        "untranslatedName": "Waiting",
+        "id": "10005",
+        "statusCategory": {
+          "self": "https://example.atlassian.net/rest/api/3/statuscategory/4",
+          "id": 4,
+          "key": "indeterminate",
+          "colorName": "yellow",
+          "name": "In Progress"
+        }
+      },
+      {
+        "self": "https://example.atlassian.net/rest/api/3/status/10006",
+        "description": "This status is managed internally by Jira Software",
+        "iconUrl": "https://example.atlassian.net/",
+        "name": "Pool of Options",
+        "untranslatedName": "Pool of Options",
+        "id": "10006",
+        "statusCategory": {
+          "self": "https://example.atlassian.net/rest/api/3/statuscategory/2",
+          "id": 2,
+          "key": "new",
+          "colorName": "blue-gray",
+          "name": "To Do"
+        }
+      }
+    ]
+  },
+  {
+    "self": "https://example.atlassian.net/rest/api/3/issuetype/10004",
+    "id": "10004",
+    "name": "Bug",
+    "subtask": false,
+    "statuses": [
+      {
+        "self": "https://example.atlassian.net/rest/api/3/status/10000",
+        "description": "",
+        "iconUrl": "https://example.atlassian.net/",
+        "name": "Backlog",
+        "untranslatedName": "Backlog",
+        "id": "10000",
+        "statusCategory": {
+          "self": "https://example.atlassian.net/rest/api/3/statuscategory/2",
+          "id": 2,
+          "key": "new",
+          "colorName": "blue-gray",
+          "name": "To Do"
+        }
+      },
+      {
+        "self": "https://example.atlassian.net/rest/api/3/status/3",
+        "description": "This issue is being actively worked on at the moment by the assignee.",
+        "iconUrl": "https://example.atlassian.net/images/icons/statuses/inprogress.png",
+        "name": "In Progress",
+        "untranslatedName": "In Progress",
+        "id": "3",
+        "statusCategory": {
+          "self": "https://example.atlassian.net/rest/api/3/statuscategory/4",
+          "id": 4,
+          "key": "indeterminate",
+          "colorName": "yellow",
+          "name": "In Progress"
+        }
+      },
+      {
+        "self": "https://example.atlassian.net/rest/api/3/status/10002",
+        "description": "",
+        "iconUrl": "https://example.atlassian.net/",
+        "name": "Done",
+        "untranslatedName": "Done",
+        "id": "10002",
+        "statusCategory": {
+          "self": "https://example.atlassian.net/rest/api/3/statuscategory/3",
+          "id": 3,
+          "key": "done",
+          "colorName": "green",
+          "name": "Done"
+        }
+      },
+      {
+        "self": "https://example.atlassian.net/rest/api/3/status/10003",
+        "description": "This status is managed internally by Jira Software",
+        "iconUrl": "https://example.atlassian.net/",
+        "name": "Next",
+        "untranslatedName": "Next",
+        "id": "10003",
+        "statusCategory": {
+          "self": "https://example.atlassian.net/rest/api/3/statuscategory/2",
+          "id": 2,
+          "key": "new",
+          "colorName": "blue-gray",
+          "name": "To Do"
+        }
+      },
+      {
+        "self": "https://example.atlassian.net/rest/api/3/status/10004",
+        "description": "This status is managed internally by Jira Software",
+        "iconUrl": "https://example.atlassian.net/",
+        "name": "Committed",
+        "untranslatedName": "Committed",
+        "id": "10004",
+        "statusCategory": {
+          "self": "https://example.atlassian.net/rest/api/3/statuscategory/4",
+          "id": 4,
+          "key": "indeterminate",
+          "colorName": "yellow",
+          "name": "In Progress"
+        }
+      },
+      {
+        "self": "https://example.atlassian.net/rest/api/3/status/10005",
+        "description": "This status is managed internally by Jira Software",
+        "iconUrl": "https://example.atlassian.net/",
+        "name": "Waiting",
+        "untranslatedName": "Waiting",
+        "id": "10005",
+        "statusCategory": {
+          "self": "https://example.atlassian.net/rest/api/3/statuscategory/4",
+          "id": 4,
+          "key": "indeterminate",
+          "colorName": "yellow",
+          "name": "In Progress"
+        }
+      },
+      {
+        "self": "https://example.atlassian.net/rest/api/3/status/10006",
+        "description": "This status is managed internally by Jira Software",
+        "iconUrl": "https://example.atlassian.net/",
+        "name": "Pool of Options",
+        "untranslatedName": "Pool of Options",
+        "id": "10006",
+        "statusCategory": {
+          "self": "https://example.atlassian.net/rest/api/3/statuscategory/2",
+          "id": 2,
+          "key": "new",
+          "colorName": "blue-gray",
+          "name": "To Do"
+        }
+      }
+    ]
+  },
+  {
+    "self": "https://example.atlassian.net/rest/api/3/issuetype/10000",
+    "id": "10000",
+    "name": "Epic",
+    "subtask": false,
+    "statuses": [
+      {
+        "self": "https://example.atlassian.net/rest/api/3/status/1",
+        "description": "New Epic",
+        "iconUrl": "https://example.atlassian.net/images/icons/statuses/open.png",
+        "name": "New",
+        "untranslatedName": "New",
+        "id": "1",
+        "statusCategory": {
+          "self": "https://example.atlassian.net/rest/api/3/statuscategory/2",
+          "id": 2,
+          "key": "new",
+          "colorName": "blue-gray",
+          "name": "To Do"
+        }
+      },
+      {
+        "self": "https://example.atlassian.net/rest/api/3/status/10006",
+        "description": "This status is managed internally by Jira Software",
+        "iconUrl": "https://example.atlassian.net/",
+        "name": "Pool of Options",
+        "untranslatedName": "Pool of Options",
+        "id": "10006",
+        "statusCategory": {
+          "self": "https://example.atlassian.net/rest/api/3/statuscategory/2",
+          "id": 2,
+          "key": "new",
+          "colorName": "blue-gray",
+          "name": "To Do"
+        }
+      },
+      {
+        "self": "https://example.atlassian.net/rest/api/3/status/10003",
+        "description": "This status is managed internally by Jira Software",
+        "iconUrl": "https://example.atlassian.net/",
+        "name": "Next",
+        "untranslatedName": "Next",
+        "id": "10003",
+        "statusCategory": {
+          "self": "https://example.atlassian.net/rest/api/3/statuscategory/2",
+          "id": 2,
+          "key": "new",
+          "colorName": "blue-gray",
+          "name": "To Do"
+        }
+      },
+      {
+        "self": "https://example.atlassian.net/rest/api/3/status/10004",
+        "description": "This status is managed internally by Jira Software",
+        "iconUrl": "https://example.atlassian.net/",
+        "name": "Committed",
+        "untranslatedName": "Committed",
+        "id": "10004",
+        "statusCategory": {
+          "self": "https://example.atlassian.net/rest/api/3/statuscategory/4",
+          "id": 4,
+          "key": "indeterminate",
+          "colorName": "yellow",
+          "name": "In Progress"
+        }
+      },
+      {
+        "self": "https://example.atlassian.net/rest/api/3/status/10007",
+        "description": "",
+        "iconUrl": "https://example.atlassian.net/images/icons/statuses/generic.png",
+        "name": "Analysis",
+        "untranslatedName": "Analysis",
+        "id": "10007",
+        "statusCategory": {
+          "self": "https://example.atlassian.net/rest/api/3/statuscategory/4",
+          "id": 4,
+          "key": "indeterminate",
+          "colorName": "yellow",
+          "name": "In Progress"
+        }
+      },
+      {
+        "self": "https://example.atlassian.net/rest/api/3/status/10008",
+        "description": "",
+        "iconUrl": "https://example.atlassian.net/images/icons/statuses/generic.png",
+        "name": "Design",
+        "untranslatedName": "Design",
+        "id": "10008",
+        "statusCategory": {
+          "self": "https://example.atlassian.net/rest/api/3/statuscategory/4",
+          "id": 4,
+          "key": "indeterminate",
+          "colorName": "yellow",
+          "name": "In Progress"
+        }
+      },
+      {
+        "self": "https://example.atlassian.net/rest/api/3/status/10009",
+        "description": "",
+        "iconUrl": "https://example.atlassian.net/images/icons/statuses/generic.png",
+        "name": "Delivery",
+        "untranslatedName": "Delivery",
+        "id": "10009",
+        "statusCategory": {
+          "self": "https://example.atlassian.net/rest/api/3/statuscategory/4",
+          "id": 4,
+          "key": "indeterminate",
+          "colorName": "yellow",
+          "name": "In Progress"
+        }
+      },
+      {
+        "self": "https://example.atlassian.net/rest/api/3/status/10002",
+        "description": "",
+        "iconUrl": "https://example.atlassian.net/",
+        "name": "Done",
+        "untranslatedName": "Done",
+        "id": "10002",
+        "statusCategory": {
+          "self": "https://example.atlassian.net/rest/api/3/statuscategory/3",
+          "id": 3,
+          "key": "done",
+          "colorName": "green",
+          "name": "Done"
+        }
+      },
+      {
+        "self": "https://example.atlassian.net/rest/api/3/status/10005",
+        "description": "This status is managed internally by Jira Software",
+        "iconUrl": "https://example.atlassian.net/",
+        "name": "Waiting",
+        "untranslatedName": "Waiting",
+        "id": "10005",
+        "statusCategory": {
+          "self": "https://example.atlassian.net/rest/api/3/statuscategory/4",
+          "id": 4,
+          "key": "indeterminate",
+          "colorName": "yellow",
+          "name": "In Progress"
+        }
+      }
+    ]
+  },
+  {
+    "self": "https://example.atlassian.net/rest/api/3/issuetype/10005",
+    "id": "10005",
+    "name": "Initiative",
+    "subtask": false,
+    "statuses": [
+      {
+        "self": "https://example.atlassian.net/rest/api/3/status/10000",
+        "description": "",
+        "iconUrl": "https://example.atlassian.net/",
+        "name": "Backlog",
+        "untranslatedName": "Backlog",
+        "id": "10000",
+        "statusCategory": {
+          "self": "https://example.atlassian.net/rest/api/3/statuscategory/2",
+          "id": 2,
+          "key": "new",
+          "colorName": "blue-gray",
+          "name": "To Do"
+        }
+      },
+      {
+        "self": "https://example.atlassian.net/rest/api/3/status/3",
+        "description": "This issue is being actively worked on at the moment by the assignee.",
+        "iconUrl": "https://example.atlassian.net/images/icons/statuses/inprogress.png",
+        "name": "In Progress",
+        "untranslatedName": "In Progress",
+        "id": "3",
+        "statusCategory": {
+          "self": "https://example.atlassian.net/rest/api/3/statuscategory/4",
+          "id": 4,
+          "key": "indeterminate",
+          "colorName": "yellow",
+          "name": "In Progress"
+        }
+      },
+      {
+        "self": "https://example.atlassian.net/rest/api/3/status/10002",
+        "description": "",
+        "iconUrl": "https://example.atlassian.net/",
+        "name": "Done",
+        "untranslatedName": "Done",
+        "id": "10002",
+        "statusCategory": {
+          "self": "https://example.atlassian.net/rest/api/3/statuscategory/3",
+          "id": 3,
+          "key": "done",
+          "colorName": "green",
+          "name": "Done"
+        }
+      },
+      {
+        "self": "https://example.atlassian.net/rest/api/3/status/10003",
+        "description": "This status is managed internally by Jira Software",
+        "iconUrl": "https://example.atlassian.net/",
+        "name": "Next",
+        "untranslatedName": "Next",
+        "id": "10003",
+        "statusCategory": {
+          "self": "https://example.atlassian.net/rest/api/3/statuscategory/2",
+          "id": 2,
+          "key": "new",
+          "colorName": "blue-gray",
+          "name": "To Do"
+        }
+      },
+      {
+        "self": "https://example.atlassian.net/rest/api/3/status/10004",
+        "description": "This status is managed internally by Jira Software",
+        "iconUrl": "https://example.atlassian.net/",
+        "name": "Committed",
+        "untranslatedName": "Committed",
+        "id": "10004",
+        "statusCategory": {
+          "self": "https://example.atlassian.net/rest/api/3/statuscategory/4",
+          "id": 4,
+          "key": "indeterminate",
+          "colorName": "yellow",
+          "name": "In Progress"
+        }
+      },
+      {
+        "self": "https://example.atlassian.net/rest/api/3/status/10005",
+        "description": "This status is managed internally by Jira Software",
+        "iconUrl": "https://example.atlassian.net/",
+        "name": "Waiting",
+        "untranslatedName": "Waiting",
+        "id": "10005",
+        "statusCategory": {
+          "self": "https://example.atlassian.net/rest/api/3/statuscategory/4",
+          "id": 4,
+          "key": "indeterminate",
+          "colorName": "yellow",
+          "name": "In Progress"
+        }
+      },
+      {
+        "self": "https://example.atlassian.net/rest/api/3/status/10006",
+        "description": "This status is managed internally by Jira Software",
+        "iconUrl": "https://example.atlassian.net/",
+        "name": "Pool of Options",
+        "untranslatedName": "Pool of Options",
+        "id": "10006",
+        "statusCategory": {
+          "self": "https://example.atlassian.net/rest/api/3/statuscategory/2",
+          "id": 2,
+          "key": "new",
+          "colorName": "blue-gray",
+          "name": "To Do"
+        }
+      }
+    ]
+  },
+  {
+    "self": "https://example.atlassian.net/rest/api/3/issuetype/10008",
+    "id": "10008",
+    "name": "Risk & Compliance",
+    "subtask": false,
+    "statuses": [
+      {
+        "self": "https://example.atlassian.net/rest/api/3/status/10000",
+        "description": "",
+        "iconUrl": "https://example.atlassian.net/",
+        "name": "Backlog",
+        "untranslatedName": "Backlog",
+        "id": "10000",
+        "statusCategory": {
+          "self": "https://example.atlassian.net/rest/api/3/statuscategory/2",
+          "id": 2,
+          "key": "new",
+          "colorName": "blue-gray",
+          "name": "To Do"
+        }
+      },
+      {
+        "self": "https://example.atlassian.net/rest/api/3/status/3",
+        "description": "This issue is being actively worked on at the moment by the assignee.",
+        "iconUrl": "https://example.atlassian.net/images/icons/statuses/inprogress.png",
+        "name": "In Progress",
+        "untranslatedName": "In Progress",
+        "id": "3",
+        "statusCategory": {
+          "self": "https://example.atlassian.net/rest/api/3/statuscategory/4",
+          "id": 4,
+          "key": "indeterminate",
+          "colorName": "yellow",
+          "name": "In Progress"
+        }
+      },
+      {
+        "self": "https://example.atlassian.net/rest/api/3/status/10002",
+        "description": "",
+        "iconUrl": "https://example.atlassian.net/",
+        "name": "Done",
+        "untranslatedName": "Done",
+        "id": "10002",
+        "statusCategory": {
+          "self": "https://example.atlassian.net/rest/api/3/statuscategory/3",
+          "id": 3,
+          "key": "done",
+          "colorName": "green",
+          "name": "Done"
+        }
+      },
+      {
+        "self": "https://example.atlassian.net/rest/api/3/status/10003",
+        "description": "This status is managed internally by Jira Software",
+        "iconUrl": "https://example.atlassian.net/",
+        "name": "Next",
+        "untranslatedName": "Next",
+        "id": "10003",
+        "statusCategory": {
+          "self": "https://example.atlassian.net/rest/api/3/statuscategory/2",
+          "id": 2,
+          "key": "new",
+          "colorName": "blue-gray",
+          "name": "To Do"
+        }
+      },
+      {
+        "self": "https://example.atlassian.net/rest/api/3/status/10004",
+        "description": "This status is managed internally by Jira Software",
+        "iconUrl": "https://example.atlassian.net/",
+        "name": "Committed",
+        "untranslatedName": "Committed",
+        "id": "10004",
+        "statusCategory": {
+          "self": "https://example.atlassian.net/rest/api/3/statuscategory/4",
+          "id": 4,
+          "key": "indeterminate",
+          "colorName": "yellow",
+          "name": "In Progress"
+        }
+      },
+      {
+        "self": "https://example.atlassian.net/rest/api/3/status/10005",
+        "description": "This status is managed internally by Jira Software",
+        "iconUrl": "https://example.atlassian.net/",
+        "name": "Waiting",
+        "untranslatedName": "Waiting",
+        "id": "10005",
+        "statusCategory": {
+          "self": "https://example.atlassian.net/rest/api/3/statuscategory/4",
+          "id": 4,
+          "key": "indeterminate",
+          "colorName": "yellow",
+          "name": "In Progress"
+        }
+      },
+      {
+        "self": "https://example.atlassian.net/rest/api/3/status/10006",
+        "description": "This status is managed internally by Jira Software",
+        "iconUrl": "https://example.atlassian.net/",
+        "name": "Pool of Options",
+        "untranslatedName": "Pool of Options",
+        "id": "10006",
+        "statusCategory": {
+          "self": "https://example.atlassian.net/rest/api/3/statuscategory/2",
+          "id": 2,
+          "key": "new",
+          "colorName": "blue-gray",
+          "name": "To Do"
+        }
+      }
+    ]
+  },
+  {
+    "self": "https://example.atlassian.net/rest/api/3/issuetype/10007",
+    "id": "10007",
+    "name": "Enhancement & Optimisation",
+    "subtask": false,
+    "statuses": [
+      {
+        "self": "https://example.atlassian.net/rest/api/3/status/10000",
+        "description": "",
+        "iconUrl": "https://example.atlassian.net/",
+        "name": "Backlog",
+        "untranslatedName": "Backlog",
+        "id": "10000",
+        "statusCategory": {
+          "self": "https://example.atlassian.net/rest/api/3/statuscategory/2",
+          "id": 2,
+          "key": "new",
+          "colorName": "blue-gray",
+          "name": "To Do"
+        }
+      },
+      {
+        "self": "https://example.atlassian.net/rest/api/3/status/3",
+        "description": "This issue is being actively worked on at the moment by the assignee.",
+        "iconUrl": "https://example.atlassian.net/images/icons/statuses/inprogress.png",
+        "name": "In Progress",
+        "untranslatedName": "In Progress",
+        "id": "3",
+        "statusCategory": {
+          "self": "https://example.atlassian.net/rest/api/3/statuscategory/4",
+          "id": 4,
+          "key": "indeterminate",
+          "colorName": "yellow",
+          "name": "In Progress"
+        }
+      },
+      {
+        "self": "https://example.atlassian.net/rest/api/3/status/10002",
+        "description": "",
+        "iconUrl": "https://example.atlassian.net/",
+        "name": "Done",
+        "untranslatedName": "Done",
+        "id": "10002",
+        "statusCategory": {
+          "self": "https://example.atlassian.net/rest/api/3/statuscategory/3",
+          "id": 3,
+          "key": "done",
+          "colorName": "green",
+          "name": "Done"
+        }
+      },
+      {
+        "self": "https://example.atlassian.net/rest/api/3/status/10003",
+        "description": "This status is managed internally by Jira Software",
+        "iconUrl": "https://example.atlassian.net/",
+        "name": "Next",
+        "untranslatedName": "Next",
+        "id": "10003",
+        "statusCategory": {
+          "self": "https://example.atlassian.net/rest/api/3/statuscategory/2",
+          "id": 2,
+          "key": "new",
+          "colorName": "blue-gray",
+          "name": "To Do"
+        }
+      },
+      {
+        "self": "https://example.atlassian.net/rest/api/3/status/10004",
+        "description": "This status is managed internally by Jira Software",
+        "iconUrl": "https://example.atlassian.net/",
+        "name": "Committed",
+        "untranslatedName": "Committed",
+        "id": "10004",
+        "statusCategory": {
+          "self": "https://example.atlassian.net/rest/api/3/statuscategory/4",
+          "id": 4,
+          "key": "indeterminate",
+          "colorName": "yellow",
+          "name": "In Progress"
+        }
+      },
+      {
+        "self": "https://example.atlassian.net/rest/api/3/status/10005",
+        "description": "This status is managed internally by Jira Software",
+        "iconUrl": "https://example.atlassian.net/",
+        "name": "Waiting",
+        "untranslatedName": "Waiting",
+        "id": "10005",
+        "statusCategory": {
+          "self": "https://example.atlassian.net/rest/api/3/statuscategory/4",
+          "id": 4,
+          "key": "indeterminate",
+          "colorName": "yellow",
+          "name": "In Progress"
+        }
+      },
+      {
+        "self": "https://example.atlassian.net/rest/api/3/status/10006",
+        "description": "This status is managed internally by Jira Software",
+        "iconUrl": "https://example.atlassian.net/",
+        "name": "Pool of Options",
+        "untranslatedName": "Pool of Options",
+        "id": "10006",
+        "statusCategory": {
+          "self": "https://example.atlassian.net/rest/api/3/statuscategory/2",
+          "id": 2,
+          "key": "new",
+          "colorName": "blue-gray",
+          "name": "To Do"
+        }
+      }
+    ]
+  },
+  {
+    "self": "https://example.atlassian.net/rest/api/3/issuetype/10006",
+    "id": "10006",
+    "name": "Enabler & Tech Debt",
+    "subtask": false,
+    "statuses": [
+      {
+        "self": "https://example.atlassian.net/rest/api/3/status/10000",
+        "description": "",
+        "iconUrl": "https://example.atlassian.net/",
+        "name": "Backlog",
+        "untranslatedName": "Backlog",
+        "id": "10000",
+        "statusCategory": {
+          "self": "https://example.atlassian.net/rest/api/3/statuscategory/2",
+          "id": 2,
+          "key": "new",
+          "colorName": "blue-gray",
+          "name": "To Do"
+        }
+      },
+      {
+        "self": "https://example.atlassian.net/rest/api/3/status/3",
+        "description": "This issue is being actively worked on at the moment by the assignee.",
+        "iconUrl": "https://example.atlassian.net/images/icons/statuses/inprogress.png",
+        "name": "In Progress",
+        "untranslatedName": "In Progress",
+        "id": "3",
+        "statusCategory": {
+          "self": "https://example.atlassian.net/rest/api/3/statuscategory/4",
+          "id": 4,
+          "key": "indeterminate",
+          "colorName": "yellow",
+          "name": "In Progress"
+        }
+      },
+      {
+        "self": "https://example.atlassian.net/rest/api/3/status/10002",
+        "description": "",
+        "iconUrl": "https://example.atlassian.net/",
+        "name": "Done",
+        "untranslatedName": "Done",
+        "id": "10002",
+        "statusCategory": {
+          "self": "https://example.atlassian.net/rest/api/3/statuscategory/3",
+          "id": 3,
+          "key": "done",
+          "colorName": "green",
+          "name": "Done"
+        }
+      },
+      {
+        "self": "https://example.atlassian.net/rest/api/3/status/10003",
+        "description": "This status is managed internally by Jira Software",
+        "iconUrl": "https://example.atlassian.net/",
+        "name": "Next",
+        "untranslatedName": "Next",
+        "id": "10003",
+        "statusCategory": {
+          "self": "https://example.atlassian.net/rest/api/3/statuscategory/2",
+          "id": 2,
+          "key": "new",
+          "colorName": "blue-gray",
+          "name": "To Do"
+        }
+      },
+      {
+        "self": "https://example.atlassian.net/rest/api/3/status/10004",
+        "description": "This status is managed internally by Jira Software",
+        "iconUrl": "https://example.atlassian.net/",
+        "name": "Committed",
+        "untranslatedName": "Committed",
+        "id": "10004",
+        "statusCategory": {
+          "self": "https://example.atlassian.net/rest/api/3/statuscategory/4",
+          "id": 4,
+          "key": "indeterminate",
+          "colorName": "yellow",
+          "name": "In Progress"
+        }
+      },
+      {
+        "self": "https://example.atlassian.net/rest/api/3/status/10005",
+        "description": "This status is managed internally by Jira Software",
+        "iconUrl": "https://example.atlassian.net/",
+        "name": "Waiting",
+        "untranslatedName": "Waiting",
+        "id": "10005",
+        "statusCategory": {
+          "self": "https://example.atlassian.net/rest/api/3/statuscategory/4",
+          "id": 4,
+          "key": "indeterminate",
+          "colorName": "yellow",
+          "name": "In Progress"
+        }
+      },
+      {
+        "self": "https://example.atlassian.net/rest/api/3/status/10006",
+        "description": "This status is managed internally by Jira Software",
+        "iconUrl": "https://example.atlassian.net/",
+        "name": "Pool of Options",
+        "untranslatedName": "Pool of Options",
+        "id": "10006",
+        "statusCategory": {
+          "self": "https://example.atlassian.net/rest/api/3/statuscategory/2",
+          "id": 2,
+          "key": "new",
+          "colorName": "blue-gray",
+          "name": "To Do"
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,6 @@
+!.storybook
+node_modules
+jest.config.js
+webpack.config.js
+**/*.svg
+**/*.css

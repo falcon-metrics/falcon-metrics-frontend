@@ -1,0 +1,43 @@
+.view-by-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 32px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  text-transform: Capitalize;
+  font-size: 14px;
+  font-weight: 600;
+  color: 'rgb(50, 49, 48)';
+  background: #fff;
+  border-radius: 16px;
+  font-family: 'Open Sans', 'Roboto', 'Helvetica', 'Arial', sans-serif;
+}
+
+.view-by-container .MuiTabs-indicator {
+  background-color: transparent;
+}
+.view-by-container .MuiTouchRipple-root {
+  border-radius: 20px;
+}
+
+.view-by-container .Mui-selected {
+  border: 0;
+  background: #0077C5;
+  color: #fff !important;
+  border-radius: 20px;
+}
+
+.view-by-container .MuiTab-textColorPrimary {
+  color: rgb(50, 49, 48);
+}
+
+.view-by-container .MuiTab-root {
+  min-height: 32px;
+  padding: 0;
+  text-transform: Capitalize;
+  font-size: 14px;
+  font-style: 'normal';
+  font-weight: 600;
+  font-family: 'Open Sans', 'Helvetica', 'Arial', sans-serif;
+}

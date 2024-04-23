@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 266 266">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #0075c9;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="mono">
+    <g>
+      <path class="cls-1" d="M261,133A128,128,0,1,1,133,5,128,128,0,0,1,261,133"/>
+      <g>
+        <rect class="cls-2" x="92.34" y="108.69" width="20" height="89.31"/>
+        <rect class="cls-2" x="123.6" y="86.51" width="20" height="110.5"/>
+        <rect class="cls-2" x="154.85" y="68.01" width="20" height="129.01"/>
+      </g>
+    </g>
+  </g>
+</svg>

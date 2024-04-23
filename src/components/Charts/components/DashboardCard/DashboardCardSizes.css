@@ -1,0 +1,182 @@
+.charts-page-grid {
+  display: grid;
+  gap: 1.25rem;
+  justify-content: center;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(auto-fit, minmax(406px, auto));
+  padding: 0.5rem 1.5rem;
+}
+
+.delivery-page-grid {
+  display: grid;
+  gap: 1.25rem;
+  justify-content: center;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(auto-fit, minmax(406px, auto));
+  padding: 0.5rem 1.5rem;
+}
+
+.fitness-criteria-page-grid {
+  display: grid;
+  gap: 1.25rem;
+  justify-content: center;
+  grid-template-columns: repeat(6, 268px);
+  grid-template-rows: repeat(auto-fit, minmax(261px, auto));
+  padding: 14px 0px 14px 6px;
+}
+
+.sources-of-delay-page-grid {
+  display: grid;
+  gap: 1.25rem;
+  justify-content: center;
+  grid-template-columns: repeat(5, 268px);
+  grid-template-rows: repeat(auto-fit, minmax(261px, auto));
+  padding: 14px 0px 14px 6px;
+}
+
+
+.fixed-1-chart-widget {
+  grid-column: span 1;
+}
+.fixed-2-chart-widget {
+  grid-column: span 2;
+}
+.fixed-3-chart-widget {
+  grid-column: span 3;
+}
+.fixed-4-chart-widget {
+  grid-column: span 4;
+}
+
+.full-width-chart {
+  width: 100%;
+}
+
+@media only screen and (min-width: 480px) {
+  .tiny-chart-widget {
+    grid-column: span 1;
+  }
+  .small-chart-widget {
+    grid-column: span 1;
+  }
+  .medium-chart-widget {
+    grid-column: span 2;
+  }
+  .medium-large-chart-widget {
+    grid-column: span 2;
+  }
+  .large-chart-widget {
+    grid-column: span 2;
+  }
+  .full-chart-widget {
+    grid-column: span 2;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .tiny-chart-widget {
+    grid-column: span 1;
+  }
+  .small-chart-widget {
+    grid-column: span 2;
+  }
+  .medium-chart-widget {
+    grid-column: span 2;
+  }
+  .medium-large-chart-widget {
+    grid-column: span 2;
+  }
+  .large-chart-widget {
+    grid-column: span 2;
+  }
+  .full-chart-widget {
+    grid-column: span 2;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .tiny-chart-widget {
+    grid-column: span 1;
+  }
+  .small-chart-widget {
+    grid-column: span 1;
+  }
+  .medium-chart-widget {
+    grid-column: span 2;
+  }
+  .medium-large-chart-widget {
+    grid-column: span 3;
+  }
+  .large-chart-widget {
+    grid-column: span 2;
+  }
+  .full-chart-widget {
+    grid-column: span 2;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .charts-page-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .tiny-chart-widget {
+    grid-column: span 1;
+  }
+  .small-chart-widget {
+    grid-column: span 2;
+  }
+  .medium-chart-widget {
+    grid-column: span 2;
+  }
+  .medium-large-chart-widget {
+    grid-column: span 3;
+  }
+  .large-chart-widget {
+    grid-column: span 4;
+  }
+  .full-chart-widget {
+    grid-column: span 4;
+  }
+}
+
+@media only screen and (min-width: 1550px) {
+  .tiny-chart-widget {
+    grid-column: span 1;
+  }
+  .small-chart-widget {
+    grid-column: span 1;
+  }
+  .medium-chart-widget {
+    grid-column: span 2;
+  }
+  .medium-large-chart-widget {
+    grid-column: span 3;
+  }
+  .large-chart-widget {
+    grid-column: span 2;
+  }
+  .full-chart-widget {
+    grid-column: span 4;
+  }
+}
+
+@media only screen and (min-width: 1920px) {
+  .tiny-chart-widget {
+    grid-column: span 1;
+  }
+  .small-chart-widget {
+    grid-column: span 1;
+  }
+  .medium-chart-widget {
+    grid-column: span 1;
+  }
+  .medium-large-chart-widget {
+    grid-column: span 3;
+  }
+  .large-chart-widget {
+    grid-column: span 2;
+  }
+  .full-chart-widget {
+    grid-column: span 4;
+  }
+}
